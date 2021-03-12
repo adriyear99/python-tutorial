@@ -1,0 +1,19 @@
+.texto{
+	color:green;
+	font-size:25px;
+}
+
+#centro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#titulo{
+	background-color:yellow;
+	text-align:center;
+	font-size:40px;
+	font-family:arial;
+	border:2px solid powderblue;
+	padding:20px;
+}
