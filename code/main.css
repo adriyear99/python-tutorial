@@ -1,9 +1,21 @@
+body, html {
+  height: 100%;
+}
+
+#fundo {
+  background-image: url("fundo.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
 .texto{
 	color:green;
 	font-size:25px;
 }
 
-#centro{
+.centro{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -16,4 +28,22 @@
 	font-family:arial;
 	border:2px solid powderblue;
 	padding:20px;
+}
+
+#mensagem{
+	background-color: lightyellow;
+	position: relative;
+	left: 10%;
+	border: 30px outset red;
+	padding: 5px;
+	width:80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p{
+	font-size:30px;
+	font-family:arial;
+	text-align: center;
 }
