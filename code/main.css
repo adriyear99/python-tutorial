@@ -37,6 +37,20 @@ body, html {
 	padding: 0px 50px 0px 50px;
 }
 
+ul{
+	list-style-type:square;
+}
+
+li{
+	font-size:25px;
+	color:blue;
+}
+
+li:hover{
+	color:red;
+	text-decoration:underline;
+}
+
 p{
 	font-size:30px;
 	font-family:arial;
