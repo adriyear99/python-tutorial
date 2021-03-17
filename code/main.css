@@ -57,6 +57,16 @@ p{
 	
 }
 
+#azul{
+	color:blue;
+	font-weight:bold;
+}
+
+#verde{
+	color:green;
+	font-weight:bold;
+}
+
 h1{
 	background-color:yellow;
 	text-align:center;
