@@ -4,3 +4,8 @@ function iniciar() {
   document.getElementById("demo").style.color = "red";
   document.getElementById("botao").innerHTML = "Carregando...";
 }
+
+function start(){
+	alert("Parabéns por finalizar o tutorial. Agora seu conhecimento será testado.")
+	window.location.href = "teste.html";
+}

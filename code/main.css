@@ -13,27 +13,30 @@ body, html {
 #intro{
 	font-size:30px;
 	font-family:arial;
-	text-align: center;
-	font-weight: bold;
-}
-
-#azul{
-	color:blue;
-	font-weight:bold;
-}
-
-#verde{
-	color:green;
+	text-align:center;
 	font-weight:bold;
 }
 
 #botao{
+	font-size:30px;
+	width:300px;
+	text-align:center;
+}
+
+#final{
 	font-size:50px;
 	width:300px;
 	text-align:center;
-	justify-content:center;
-	align-items:center;
-	display:flex;
+}
+
+.azul{
+	color:blue;
+	font-weight:bold;
+}
+
+.verde{
+	color:green;
+	font-weight:bold;
 }
 
 .texto{
@@ -54,6 +57,12 @@ body, html {
 	justify-content: center;
 	border: 5px solid lightgreen;
 	padding: 0px 50px 0px 50px;
+}
+
+.ref{
+	color:red;
+	font-weight:bold;
+	font-size:30px;
 }
 
 ul{
