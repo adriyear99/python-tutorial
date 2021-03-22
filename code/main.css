@@ -34,11 +34,6 @@ body, html {
 	font-weight:bold;
 }
 
-.texto{
-	color:green;
-	font-size:25px;
-}
-
 .centro{
 	display: flex;
 	align-items: center;
