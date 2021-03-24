@@ -23,7 +23,7 @@
 		<br>
 
 		<div class="mensagem">
-			<p id="intro">A linguagem Python é uma das mais simples para iniciantes, além de ser uma das mais promissoras e com maior crescimento no mercado atualmente. Esse tutorial tem o objetivo de apresentar os conceitos básicos da linguagem de forma rápida e testar o conhecimento adquirido no final por meio de um teste, gerando a pontuação do usuário no banco de dados.</p>
+			<p id="intro">Python é uma linguagem de alto nível e código aberto com a sintaxe simples que a torna extremamente recomendável para programadores iniciantes. Atualmente, Python chega a ser uma das linguagens mais promissoras e com maior crescimento no mercado. Esse tutorial tem o objetivo de apresentar os conceitos básicos da linguagem de forma rápida e testar o conhecimento adquirido no final por meio de um teste, gerando a pontuação do aluno no banco de dados para comparação com outros usuários.</p>
 		</div>
 
 		<header>
@@ -33,6 +33,7 @@
 				<a href="#var"><li>Variáveis</li></a>
 				<a href="#cond"><li>Condições (IF/ELSE)</li></a>
 				<a href="#loop"><li>Loops (FOR/WHILE)</li></a>
+				<a href="#list"><li>Listas e Tuplas</li></a>
 				<a href="#func"><li>Funções</li></a>
 				<a href="#class"><li>Classes</li></a>
 			</dl>
@@ -44,25 +45,36 @@
 			<a name="es"></a>
 			<h2>Entrada e Saída</h2>
 			<p>Python é uma linguagem de alto nível, o que quer dizer que apresenta uma sintaxe mais próxima da linguagem humana, com vocabulário fácil de ser compreendido apesar de utilizar o inglês como base antes do código passar pelo compilador e ser convertido para linguagem de máquina. Como qualquer outra linguagem, Python possui algumas funções essenciais e palavras reservadas já incluídas em sua biblioteca, facilitando a experiência do usuário em executar o programa. Uma das funções mais importantes que serão usadas em cada código para mostrar um resultado de saída na tela, servindo como forma de "comunicação entre usuário e máquina", é a função <font class="azul">print</font>, onde o usuário pode colocar um ou mais parâmetros entre os parênteses para mostrar o valor de um texto ou variável contendo algum tipo de dado, do qual será abordado na seção <a href="#var" class="ref">Variáveis</a>, além de outras modificações, para serem mostradas como saída do programa. É possível formatar o conteúdo dentro da função <font class="azul">print</font> por meio do sinal de mais ou até uma vírgula para concatenar variáveis e texto, além de poder acrescentar funções, das quais serão faladas mais tarde na seção <a href="#func" class="ref">Funções</a> do tutorial.</p>
+
+			<img src="img/es.jpg" alt="Entrada e Saída">
 		</header>
 
 		<header>
 			<a name="var"></a>
 			<h2>Variáveis</h2>
 			<p>O conceito de variáveis consiste em reservar um espaço na memória e dar a ela um nome, tipo e valor. Os tipos de variáveis mais comuns em Python são <font class="verde">int</font> (números inteiros), <font class="verde">float</font> (números decimais ou com ponto flutuante), <font class="verde">string</font> (caracteres usados entre aspas) e <font class="verde">booleano</font> (verdadeiro ou falso). Vale citar que existem funções especiais como <font class="azul">int</font>, <font class="azul">float</font>, <font class="azul">str</font> e <font class="azul">bool</font> para converter tipos de dados para outros quando for possível, além de que é preciso entender que valores entre aspas sempre serão <font class="verde">string</font> e não será possível fazer cálculos com valores numéricos em forma de <font class="verde">string</font> a menos que ocorra alguma conversão temporária no momento da leitura ou uma sobreposição do tipo da variável antes de utilizar a variável em questão para algum propósito.</p>
+
+			<img src="img/var.jpg" alt="Variáveis">
 		</header>
 
 		<header>
 			<a name="cond"></a>
 			<h2>Condições (IF/ELSE)</h2>
 			<p>Como toda linguagem de programação, Python também possui o uso de condições lógicas para fazer decisões ao longo do código através do uso das funções <font class="azul">if</font> e <font class="azul">else</font>, além do <font class="azul">elif</font> para casos onde há mais de duas possibilidades no código. O conceito envolve um bloco de código onde o programador deve criar decisões fazendo uso de operadores lógicos da matemática como maior que (>), menor que (<), igual (==), diferente (!=), maior ou igual (>=), menor ou igual (<=) para fazer a comparação entre <a href="#var" class="ref">variáveis</a> e/ou valores de qualquer tipo de dado, de forma que apenas a condição que retorne o resultado verdadeiro seja executado no código no caso do <font class="azul">if</font>. Caso contrário, o código continuará lendo cada condição de <font class="azul">elif</font> até encontrar o resultado verdadeiro e executando o <font class="azul">else</font> apenas quando nenhuma das comparações lógicas nas condições acima dela seja verdadeira.</p>
+
+			<img src="img/cond.jpg" alt="Condições">
 		</header>
 
 		<header>
 			<a name="loop"></a>
 			<h2>Loops (FOR/WHILE)</h2>
-			<p>Loops são essenciais em qualquer linguagem de programação pelo fato de que podem fazer com que algum trecho de código seja repetido quantas vezes for preciso de forma que não seja necessário escrever o processo novamente para cada loop. Esse processo é feito por meio das funções <font class="azul">for</font> e <font class="azul">while</font>.
-				No caso do <font class="azul">for</font>, é preciso especificar o nome de uma <a href="#var" class="ref">variável</a> qualquer para armazenar o valor do loop atual e especificar o parâmetros inicial (opcional, caso contrário o valor padrão será 0), final (o loop chegará até a quantidade de vezes do parâmetro final menos 1) e o intervalo especificando o salto entre os dois parâmetros, podendo alterar a quantidade de loops. No caso do while, o loop será executado infinitamente a menos que exista uma condição de parada para sair dele, o que implica o uso de operadores lógicos para trazer um resultado verdadeiro e sair do loop quando o mesmo for atingido. Recomenda-se usar o <font class="azul">for</font> quando o número de laços de repetição seja conhecido e especificado, enquanto o <font class="azul">while</font> deve ser usado quando o programador, mesmo sabendo a faixa de valores para que o bloco de código pare de ser repetido, não sabe ao certo o número de iterações, levando em conta que a condição de parada pode ser atingida em algum momento diferente de acordo com os comandos do usuário durante a execução do código. É preciso colocar em mente que cada um dos blocos de código dessas funções será executado em loop e o compilador só chegará a ler as próximas linhas do código quando esse loop terminar.</p>
+			<p>Loops são essenciais em qualquer linguagem de programação pelo fato de que podem fazer com que algum trecho de código seja repetido quantas vezes for preciso de forma que não seja necessário escrever o processo novamente para cada loop. Esse processo é feito por meio das funções <font class="azul">for</font> e <font class="azul">while</font>. No caso do <font class="azul">for</font>, é preciso especificar o nome de uma <a href="#var" class="ref">variável</a> qualquer para armazenar o valor do loop atual e especificar o parâmetros inicial (opcional, caso contrário o valor padrão será 0), final (o loop chegará até a quantidade de vezes do parâmetro final menos 1) e o intervalo especificando o salto entre os dois parâmetros, podendo alterar a quantidade de loops. No caso do while, o loop será executado infinitamente a menos que exista uma condição de parada para sair dele, o que implica o uso de operadores lógicos para trazer um resultado verdadeiro e sair do loop quando o mesmo for atingido. Recomenda-se usar o <font class="azul">for</font> quando o número de laços de repetição seja conhecido e especificado, enquanto o <font class="azul">while</font> deve ser usado quando o programador, mesmo sabendo a faixa de valores para que o bloco de código pare de ser repetido, não sabe ao certo o número de iterações, levando em conta que a condição de parada pode ser atingida em algum momento diferente de acordo com os comandos do usuário durante a execução do código. É preciso colocar em mente que cada um dos blocos de código dessas funções será executado em loop e o compilador só chegará a ler as próximas linhas do código quando esse loop terminar.</p>
+		</header>
+
+		<header>
+			<a name="list"></a>
+			<h2>Listas e Tuplas</h2>
+			<p>aaaaaaaaaaaaaaaaaaa</p>
 		</header>
 
 		<header>
