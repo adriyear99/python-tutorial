@@ -18,14 +18,24 @@ body, html {
 }
 
 #botao{
-	font-size:50px;
-	width:400px;
-	padding:10px;
+	display:block;
+	background:lightblue;
+	color:red;
+	padding:15px;
+	cursor:pointer;
+	text-decoration:none;
+	width:320px;
 	text-align:center;
+	border-radius:5px;
+	font-size:30px;
+}
+
+#botao:hover{
+	background:lightgreen;
 }
 
 #formulario{
-	display:inline-block;
+	text-align:center;
 }
 
 #fix{
@@ -61,6 +71,11 @@ body, html {
 	color:red;
 	font-weight:bold;
 	font-size:30px;
+}
+
+.questao{
+	text-decoration:none;
+	text-align:center;
 }
 
 ul{
