@@ -131,6 +131,11 @@ for x in range(len(lista)):   # len(lista) = 6
 
 print("")
 
+for x in lista:   # Equivalente ao exemplo anterior
+    print(x)
+
+print("")
+
 ''' A variável x será incrementada a cada loop, mostrando na tela os valores
 lista[0], lista[1], lista[2], lista[3], lista[4], lista[5] e lista[6], uma
 de cada vez '''

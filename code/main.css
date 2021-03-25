@@ -34,6 +34,23 @@ body, html {
 	background:lightgreen;
 }
 
+#botao2{
+	display:inline-block;
+	background:lightblue;
+	color:red;
+	padding:15px;
+	cursor:pointer;
+	text-decoration:none;
+	width:320px;
+	text-align:center;
+	border-radius:5px;
+	font-size:30px;
+}
+
+#botao2:hover{
+	background:lightgreen;
+}
+
 #formulario{
 	text-align:center;
 }
