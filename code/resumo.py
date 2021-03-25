@@ -139,7 +139,7 @@ de cada vez '''
 usar o range(6) fará com que o bloco de código seja repetido 6 vezes, ocupando
 os valores de 0 a 5. '''
 
-dicionario = {"nome":"Eren", "sobrenome":"Yeager", "idade":19, "profissao":"soldado"}
+dicionario = {"nome":"Eren", "sobrenome":"Yeager", "idade":15, "profissao":"soldado"}
 dicionario["vivo"] = True
 print(dicionario)
 
