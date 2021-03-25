@@ -52,6 +52,11 @@ body, html {
 	font-weight:bold;
 }
 
+.importante{
+	font-weight:bold;
+	text-decoration:underline;
+}
+
 .centro{
 	display: flex;
 	align-items: center;
