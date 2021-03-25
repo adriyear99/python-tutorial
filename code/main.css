@@ -28,6 +28,10 @@ body, html {
 	display:inline-block;
 }
 
+#fix{
+	width:97%;
+}
+
 .azul{
 	color:blue;
 	font-weight:bold;
