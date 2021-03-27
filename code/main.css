@@ -53,14 +53,23 @@ img{
 }
 
 form{
-	width:50%;
+	width:70%;
 	margin:0 auto;
+	border:3px solid lightblue;
 }
 
 section{
 	justify-content:center;
 	display:flex;
-	margin:5px;
+	margin:30px;
+}
+
+label{
+	margin: -3px 0px 5px 0px;
+}
+
+input[type="radio"]{
+  margin: 0px 5px 0px 10px;
 }
 
 #fundo {
@@ -112,10 +121,12 @@ section{
 	background:lightgreen;
 }
 
+/*
 #formulario{
 	height:auto;
 	margin:0 auto;
 }
+*/
 
 #fix{
 	width:97%;
