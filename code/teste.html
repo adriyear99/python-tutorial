@@ -22,10 +22,10 @@
 
 		<br><br><br>
 
-			<form>
+			<form action="connect.php" method="post">
 				<section class="input">
 					<label for="nome">Digite seu nome:</label><br>
-					<input type="text" id="nome" name="nome"><br><br>
+					<input type="text" id="nome" name="nome" placeholder="Digite o nome de usuário aqui"><br><br>
 				</section>
 
 				<h2>Questão 1</h2>
@@ -47,15 +47,15 @@
 				<h3>Qual o tipo de dado e resultado mostrado na tela com a concatenação obtida na variável res?</h3>
 				<img src="img/q2.jpg" alt="Questão 2"><br>
 				<section class="horizontal">
-					<input type="radio" id="2a" value="2a" name="q2">
+					<input type="radio" id="2a" value="a" name="q2">
 					<label for="q1">58, String</label>
-					<input type="radio" id="2b" value="2b" name="q2">
+					<input type="radio" id="2b" value="b" name="q2">
 					<label for="q1">58, Int</label>
-					<input type="radio" id="2c" value="2c" name="q2">
+					<input type="radio" id="2c" value="c" name="q2">
 					<label for="q1">13, String</label>
-					<input type="radio" id="2d" value="2d" name="q2">
+					<input type="radio" id="2d" value="d" name="q2">
 					<label for="q1">13, Int</label>
-					<input type="radio" id="2e" value="2e" name="q2">
+					<input type="radio" id="2e" value="e" name="q2">
 					<label for="q1">A execução resulta em erro</label><br>
 				</section>
 
@@ -63,15 +63,15 @@
 				<h3>Qual o resultado mostrado na tela pela variável res após o cálculo efetuado?</h3>
 				<img src="img/q3.jpg" alt="Questão 3"><br>
 				<section class="horizontal">
-					<input type="radio" id="3a" value="3a" name="q3">
+					<input type="radio" id="3a" value="a" name="q3">
 					<label for="q1">5</label>
-					<input type="radio" id="3b" value="3b" name="q3">
+					<input type="radio" id="3b" value="b" name="q3">
 					<label for="q1">100</label>
-					<input type="radio" id="3c" value="3c" name="q3">
+					<input type="radio" id="3c" value="c" name="q3">
 					<label for="q1">0</label>
-					<input type="radio" id="3d" value="3d" name="q3">
+					<input type="radio" id="3d" value="d" name="q3">
 					<label for="q1">1</label>
-					<input type="radio" id="3e" value="3e" name="q3">
+					<input type="radio" id="3e" value="e" name="q3">
 					<label for="q1">20</label><br>
 				</section>
 
@@ -79,15 +79,15 @@
 				<h3>Qual das condições abaixo será mostrada na tela?</h3>
 				<img src="img/q4.jpg" alt="Questão 4"><br>
 				<section class="horizontal">
-					<input type="radio" id="4a" value="4a" name="q4">
+					<input type="radio" id="4a" value="a" name="q4">
 					<label for="q1">Nenhuma. O código vai ignorar o bloco e continuar a execução.</label><br>
-					<input type="radio" id="4b" value="4b" name="q4">
+					<input type="radio" id="4b" value="b" name="q4">
 					<label for="q1">As duas condições são verdadeiras</label><br>
-					<input type="radio" id="4c" value="4c" name="q4">
+					<input type="radio" id="4c" value="c" name="q4">
 					<label for="q1">Apenas a primeira condição é verdadeira</label><br>
-					<input type="radio" id="4d" value="4d" name="q4">
+					<input type="radio" id="4d" value="d" name="q4">
 					<label for="q1">Apenas a segunda condição é verdadeira</label><br>
-					<input type="radio" id="4e" value="4e" name="q4">
+					<input type="radio" id="4e" value="e" name="q4">
 					<label for="q1">As duas condições são falsas</label><br>
 				</section>
 
@@ -95,15 +95,15 @@
 				<h3>Qual será a saída do bloco de código abaixo?</h3>
 				<img src="img/q5.jpg" alt="Questão 5"><br>
 				<section class="horizontal">
-					<input type="radio" id="5a" value="5a" name="q5">
+					<input type="radio" id="5a" value="a" name="q5">
 					<label for="q1">Nenhuma. O código vai ignorar o bloco e continuar a execução.</label><br>
-					<input type="radio" id="5b" value="5b" name="q5">
+					<input type="radio" id="5b" value="b" name="q5">
 					<label for="q1">A condição verdadeira não existe</label><br>
-					<input type="radio" id="5c" value="5c" name="q5">
+					<input type="radio" id="5c" value="c" name="q5">
 					<label for="q1">As variáveis são diferentes</label><br>
-					<input type="radio" id="5d" value="5d" name="q5">
+					<input type="radio" id="5d" value="d" name="q5">
 					<label for="q1">As variáveis são iguais</label><br>
-					<input type="radio" id="5e" value="5e" name="q5">
+					<input type="radio" id="5e" value="e" name="q5">
 					<label for="q1">A comparação resulta em um erro de tipagem de dado</label><br>
 				</section>
 
@@ -111,15 +111,15 @@
 				<h3>Quais valores serão mostrados na tela após o loop terminar?</h3>
 				<img src="img/q6.jpg" alt="Questão 6"><br>
 				<section class="horizontal">
-					<input type="radio" id="6a" value="6a" name="q6">
+					<input type="radio" id="6a" value="a" name="q6">
 					<label for="q1">4,5,6,7,8,9,10,11,12,13,14,15,16</label><br>
-					<input type="radio" id="6b" value="6b" name="q6">
+					<input type="radio" id="6b" value="b" name="q6">
 					<label for="q1">4,6,8,10,12,14</label><br>
-					<input type="radio" id="6c" value="6c" name="q6">
+					<input type="radio" id="6c" value="c" name="q6">
 					<label for="q1">4,16</label><br>
-					<input type="radio" id="6d" value="6d" name="q6">
+					<input type="radio" id="6d" value="d" name="q6">
 					<label for="q1">4,6,8,10,12,14,16</label><br>
-					<input type="radio" id="6e" value="6e" name="q6">
+					<input type="radio" id="6e" value="e" name="q6">
 					<label for="q1">4,5,6,7,8,9,10,11,12,13,14,15</label><br>
 				</section>
 
@@ -127,15 +127,15 @@
 				<h3>Quantas iterações serão feitas pelo loop abaixo até sair do bloco e continuar a execução do código?</h3>
 				<img src="img/q7.jpg" alt="Questão 7"><br>
 				<section class="horizontal">
-					<input type="radio" id="7a" value="7a" name="q7">
+					<input type="radio" id="7a" value="a" name="q7">
 					<label for="q1">Infinitas</label>
-					<input type="radio" id="7b" value="7b" name="q7">
+					<input type="radio" id="7b" value="b" name="q7">
 					<label for="q1">6</label>
-					<input type="radio" id="7c" value="7c" name="q7">
+					<input type="radio" id="7c" value="c" name="q7">
 					<label for="q1">4</label>
-					<input type="radio" id="7d" value="7d" name="q7">
+					<input type="radio" id="7d" value="d" name="q7">
 					<label for="q1">0</label>
-					<input type="radio" id="7e" value="7e" name="q7">
+					<input type="radio" id="7e" value="e" name="q7">
 					<label for="q1">5</label><br>
 				</section>
 
@@ -143,15 +143,15 @@
 				<h3>Qual resultado será mostrado na tela?</h3>
 				<img src="img/q8.jpg" alt="Questão 8"><br>
 				<section>
-					<input type="radio" id="8a" value="8a" name="q8">
+					<input type="radio" id="8a" value="a" name="q8">
 					<label for="q1">Eren</label>
-					<input type="radio" id="8b" value="8b" name="q8">
+					<input type="radio" id="8b" value="b" name="q8">
 					<label for="q1">Reiner</label>
-					<input type="radio" id="8c" value="8c" name="q8">
+					<input type="radio" id="8c" value="c" name="q8">
 					<label for="q1">Levi</label>
-					<input type="radio" id="8d" value="8d" name="q8">
+					<input type="radio" id="8d" value="d" name="q8">
 					<label for="q1">Armin</label>
-					<input type="radio" id="8e" value="8e" name="q8">
+					<input type="radio" id="8e" value="e" name="q8">
 					<label for="q1">Mikasa</label><br>
 				</section>
 
@@ -159,15 +159,15 @@
 				<h3>Qual o resultado retornado pela função e armazenado na variável res abaixo?</h3>
 				<img src="img/q9.jpg" alt="Questão 9"><br>
 				<section class="horizontal">
-					<input type="radio" id="9a" value="9a" name="q9">
+					<input type="radio" id="9a" value="a" name="q9">
 					<label for="q1">41</label>
-					<input type="radio" id="9b" value="9b" name="q9">
+					<input type="radio" id="9b" value="b" name="q9">
 					<label for="q1">14</label>
-					<input type="radio" id="9c" value="9c" name="q9">
+					<input type="radio" id="9c" value="c" name="q9">
 					<label for="q1">45</label>
-					<input type="radio" id="9d" value="9d" name="q9">
+					<input type="radio" id="9d" value="d" name="q9">
 					<label for="q1">40</label>
-					<input type="radio" id="9e" value="9e" name="q9">
+					<input type="radio" id="9e" value="e" name="q9">
 					<label for="q1">32769</label><br>
 				</section>
 
@@ -175,15 +175,15 @@
 				<h3>Como ficará o conjunto de atributos do objeto em questão após as operações?</h3>
 				<img src="img/q10.jpg" alt="Questão 10"><br>
 				<section class="horizontal">
-					<input type="radio" id="10a" value="10a" name="q10">
+					<input type="radio" id="10a" value="a" name="q10">
 					<label for="q1">Sasha, Braus, 15, Soldado, True</label><br>
-					<input type="radio" id="10b" value="10b" name="q10">
+					<input type="radio" id="10b" value="b" name="q10">
 					<label for="q1">Sasha, Braus, 19, False</label><br>
-					<input type="radio" id="10c" value="10c" name="q10">
+					<input type="radio" id="10c" value="c" name="q10">
 					<label for="q1">Sasha, Braus, 19, Soldado, True</label><br>
-					<input type="radio" id="10d" value="10d" name="q10">
+					<input type="radio" id="10d" value="d" name="q10">
 					<label for="q1">Sasha, Braus, 19, Soldado, False</label><br>
-					<input type="radio" id="10e" value="10e" name="q10">
+					<input type="radio" id="10e" value="e" name="q10">
 					<label for="q1">Sasha, Braus, 15, False</label><br><br>
 				</section>
 
