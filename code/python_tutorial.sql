@@ -1,8 +1,15 @@
-CREATE DATABASE teste;
+CREATE DATABASE teste
+DEFAULT CHARACTER SET utf8
+DEFAULT COLLATE utf8_general_ci;
+
+DROP DATABASE teste;
+
 USE teste;
+
 CREATE TABLE resultados(
+	id		int NOT NULL AUTO_INCREMENT,
 	nome	varchar(60) NOT NULL,
-    q1		varchar(1) NOT NULL,
+    q1		char(1) NOT NULL,
     q2		char(1) NOT NULL,
     q3		char(1) NOT NULL,
     q4		char(1) NOT NULL,
@@ -11,9 +18,12 @@ CREATE TABLE resultados(
     q7		char(1) NOT NULL,
     q8		char(1) NOT NULL,
     q9		char(1) NOT NULL,
-    q10		char(1) NOT NULL
-);
+    q10		char(1) NOT NULL,
+    PRIMARY KEY (id)
+) DEFAULT CHARSET UTF8;
 
 DROP TABLE resultados;
 
 SELECT * FROM resultados;
+
+INSERT INTO resultados VALUES (DEFAULT,'teste','a','a','a','a','a','a','a','a','a','a');
