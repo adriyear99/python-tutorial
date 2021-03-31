@@ -26,4 +26,13 @@ DROP TABLE resultados;
 
 SELECT * FROM resultados;
 
+DESCRIBE resultados;
+
 INSERT INTO resultados VALUES (DEFAULT,'teste','a','a','a','a','a','a','a','a','a','a');
+
+ALTER TABLE resultados
+MODIFY nome varchar(30) NOT NULL UNIQUE;
+
+DELETE FROM resultados WHERE id > 0;
+
+ALTER TABLE resultados AUTO_INCREMENT=1;

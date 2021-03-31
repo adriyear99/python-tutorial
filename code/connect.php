@@ -22,10 +22,16 @@
 	$banco = mysqli_select_db($conexao,$bd);
 
 	if($conexao){
-		echo "Conectado";
+		echo "A conexão foi estabelecida com o localhost";
 	}else{
-		echo "Não conectado";
+		echo "Erro de conexão com o localhost";
 	}
+
+	if($banco){
+		echo "A conexão foi estabelecida com o banco de dados";
+	}else{
+		echo "Erro de conexão com o banco de dados";
+	}	
 
 	/*
 	if (!$conexao)
