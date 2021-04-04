@@ -22,10 +22,10 @@ print("-------------------------------------------------------------")
 
 # Variáveis
 
-var1 = "Pedro"   # A variável com nome var1 recebe o valor Pedro como string
-var2 = 5         # A variável com nome var2 recebe o valor 5 como int
-var3 = 8.5       # A variável com nome var3 recebe o valor 8.5 como float
-var4 = True      # A variável com nome var3 recebe o valor True como booleano
+var1 = "Pedro"   # A variável com nome var1 recebe o valor Pedro do tipo string
+var2 = 5         # A variável com nome var2 recebe o valor 5 do tipo int
+var3 = 8.5       # A variável com nome var3 recebe o valor 8.5 do tipo float
+var4 = True      # A variável com nome var4 recebe o valor True do tipo booleano
 
 print("Exemplo 1:",1+1)  # Retorna 2
 print("Exemplo 2:",5-1)  # Retorna 4
