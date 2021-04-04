@@ -9,10 +9,10 @@ print(5)                 # Exibe o número 5 no terminal como saida
 
 '''
 
-O uso de asterisco serve para fazer um comentário ou observação no código, enquanto
-aspas/apóstrofos triplos servem para fazer comentários com mais de uma linha. Ambos
-modos de comentário servem apenas para suporte ao programador e não serão lidos na
-execução do código, além de não interferirem de qualquer forma.
+O uso da cerquilha (#) serve para fazer um comentário ou observação no código,
+enquanto aspas/apóstrofos triplos servem para fazer comentários com mais de uma
+linha. Ambos modos de comentário servem apenas para suporte ao programador e não
+serão lidos na execução do código, além de não interferirem de qualquer forma.
 
 '''
 

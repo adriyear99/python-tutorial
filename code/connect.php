@@ -2,7 +2,7 @@
 
 	$host = '127.0.0.1';
 	$bd = 'teste';
-	$usuariobd = 'root';
+	$userbd = 'root';
 	$senhabd = '';
 
 	$nome = $_POST['nome'] ?? "";
@@ -31,7 +31,7 @@
 		echo "A conexão foi estabelecida com o banco de dados";
 	}else{
 		echo "Erro de conexão com o banco de dados";
-	}	
+	}
 
 	/*
 	if (!$conexao)
