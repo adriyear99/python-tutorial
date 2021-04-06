@@ -17,7 +17,7 @@
 	$q8 = $_POST['q8'];
 	$q9 = $_POST['q9'];
 	$q10 = $_POST['q10'];
-	
+
 
 	$conexao = new mysqli($host,$userbd,$senhabd,$bd);
 
@@ -43,12 +43,6 @@
 	echo $query;
 	echo "<br>";
 
-	/*
-	$query = "INSERT INTO resultados (nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) 
-	VALUES ('teste3','c','c','c','c','c','c','c','c','c','c')";
-	*/
-
-	#mysqli_query($conexao, "INSERT INTO resultados(nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) VALUES ('teste2','b','b','b','b','b','b','b','b','b','b')");
 
 	mysqli_query($conexao,$query);
 	echo "Seu cadastro foi realizado com sucesso";
