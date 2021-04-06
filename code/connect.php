@@ -17,19 +17,12 @@
 	$q8 = $_POST['q8'];
 	$q9 = $_POST['q9'];
 	$q10 = $_POST['q10'];
-	echo gettype($nome);
-	echo "<br>";
-	echo gettype($q1);
-	echo "<br>";
-	echo $q2;
-	echo "<br>";
-	echo $q3;
-	echo "<br>";
+	
 
 	$conexao = new mysqli($host,$userbd,$senhabd,$bd);
 
 	if($conexao -> connect_errno){
-		echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+		echo "Erro de conexão: " . $mysqli -> connect_error;
 	}else{
 		echo "Conexao realizada com sucesso<br>";
 	}
