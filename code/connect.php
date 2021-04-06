@@ -1,9 +1,9 @@
 <?php
 
-	$host = '127.0.0.1';
+	$host = '127.0.0.1:3306';
 	$bd = 'teste';
 	$userbd = 'root';
-	$senhabd = '';
+	$senhabd = 'root';
 
 	
 	$nome = $_POST['nome'];
@@ -17,23 +17,40 @@
 	$q8 = $_POST['q8'];
 	$q9 = $_POST['q9'];
 	$q10 = $_POST['q10'];
-	
+	echo gettype($nome);
+	echo "<br>";
+	echo gettype($q1);
+	echo "<br>";
+	echo $q2;
+	echo "<br>";
+	echo $q3;
+	echo "<br>";
 
-	$conexao = mysqli_connect($host,$userbd,$senhabd,$bd);
+	$conexao = new mysqli($host,$userbd,$senhabd,$bd);
 
-	if($conexao){
-		echo "A conexão foi estabelecida com o banco de dados<br>";
+	if($conexao -> connect_errno){
+		echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
 	}else{
-		echo "Erro de conexão com o localhost<br>";
+		echo "Conexao realizada com sucesso<br>";
 	}
 
 	/*
-	$query = "INSERT INTO resultados (id,nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) 
-	VALUES (DEFAULT,$nome,$q1,$q2,$q3,$q4,$q5,$q6,$q7,$q8,$q9,$q10)";
+	$variaveis = $nome . ',' . $q1 . ", " . $q2 . ", " . $q3 . ", " . $q4 . ", " . $q5 . ", " . $q6 ", " . $q7 . ", " . $q8 . ", " . $q9 . ", " . $q10;
+	echo $variaveis;
+	echo "<br>";
 	*/
 
+	
+
 	$query = "INSERT INTO resultados (nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) 
-	VALUES ('teste','a','a','a','a','a','a','a','a','a','a')";
+	VALUES (" $nome,$q1,$q2,$q3,$q4,$q5,$q6,$q7,$q8,$q9,$q10 " )";
+
+	/*
+	$query = "INSERT INTO resultados (nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) 
+	VALUES ('teste3','c','c','c','c','c','c','c','c','c','c')";
+	*/
+
+	#mysqli_query($conexao, "INSERT INTO resultados(nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) VALUES ('teste2','b','b','b','b','b','b','b','b','b','b')");
 
 	mysqli_query($conexao,$query);
 	echo "Seu cadastro foi realizado com sucesso";
