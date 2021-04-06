@@ -34,16 +34,21 @@
 		echo "Conexao realizada com sucesso<br>";
 	}
 
-	/*
-	$variaveis = $nome . ',' . $q1 . ", " . $q2 . ", " . $q3 . ", " . $q4 . ", " . $q5 . ", " . $q6 ", " . $q7 . ", " . $q8 . ", " . $q9 . ", " . $q10;
+	
+	$variaveis = '"' .  $nome . '","' . $q1 . '","' . $q2 . '","' . $q3 . '","' . $q4 . '","' . $q5 . '","' . $q6 . '","' . $q7 . '","' . $q8 . '","' . $q9 . '","' . $q10 . '"';
 	echo $variaveis;
 	echo "<br>";
-	*/
-
 	
 
+	$auxiliar = $nome . ',' . $q1;
+	echo $auxiliar;
+	echo "<br>";
+
 	$query = "INSERT INTO resultados (nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) 
-	VALUES (" $nome,$q1,$q2,$q3,$q4,$q5,$q6,$q7,$q8,$q9,$q10 " )";
+	VALUES (" . $variaveis . ")";
+
+	echo $query;
+	echo "<br>";
 
 	/*
 	$query = "INSERT INTO resultados (nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) 
