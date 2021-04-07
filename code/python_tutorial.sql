@@ -17,6 +17,7 @@ CREATE TABLE resultados(
     q8		char(1) NOT NULL,
     q9		char(1) NOT NULL,
     q10		char(1) NOT NULL,
+    certas  	tinyint,
     PRIMARY KEY (id)
 );
 
@@ -26,6 +27,6 @@ SELECT * FROM resultados;
 
 DESCRIBE resultados;
 
-INSERT INTO resultados VALUES (DEFAULT,'teste','a','a','a','a','a','a','a','a','a','a');
+-- INSERT INTO resultados VALUES (DEFAULT,'teste','a','a','a','a','a','a','a','a','a','a',0);
 
-DELETE FROM resultados WHERE id > 0;
+-- DELETE FROM resultados WHERE id > 0;

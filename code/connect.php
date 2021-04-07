@@ -18,6 +18,16 @@
 	$q9 = $_POST['q9'];
 	$q10 = $_POST['q10'];
 
+	$respostas = ['b','e','c','b','c','b','a','d','a','b'];
+	$perguntas = [$q1,$q2,$q3,$q4,$q5,$q6,$q7,$q8,$q9,$q10];
+	$certas = 0;
+
+	for($i = 0; $i < count($perguntas); $i++){
+		if($perguntas[$i] == $respostas[$i]){
+			$certas += 1;
+		}
+	}
+
 
 	$conexao = new mysqli($host,$userbd,$senhabd,$bd);
 
@@ -27,14 +37,15 @@
 		echo "Conexão realizada com sucesso<br>";
 	}
 
-	$variaveis = '"' .  $nome . '","' . $q1 . '","' . $q2 . '","' . $q3 . '","' . $q4 . '","' . $q5 . '","' . $q6 . '","' . $q7 . '","' . $q8 . '","' . $q9 . '","' . $q10 . '"';
+	$variaveis = '"' .  $nome . '","' . $q1 . '","' . $q2 . '","' . $q3 . '","' . $q4 . '","' . $q5 . '","' . $q6 . '","' . $q7 . '","' . $q8 . '","' . $q9 . '","' . $q10 . '","' . $certas . '"';
 	
-	$query = "INSERT INTO resultados (nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10) 
+	$query = "INSERT INTO resultados (nome,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,certas) 
 	VALUES (" . $variaveis . ")";
 
 	mysqli_query($conexao,$query);
 	echo "Seu cadastro foi realizado com sucesso<br>";
 	echo $query;
+	echo "<br>Pontuação: " . $certas;
 
 	mysqli_close($conexao);
 ?>

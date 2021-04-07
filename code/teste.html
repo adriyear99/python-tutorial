@@ -25,13 +25,13 @@
 			<form action="connect.php" method="post">
 				<section class="input">
 					<label for="nome">Digite seu nome:</label><br>
-					<input type="text" id="nome" name="nome" placeholder="Digite o nome de usuário aqui"><br><br>
+					<input type="text" id="nome" name="nome" placeholder="Digite o nome de usuário aqui" maxlength="30 "required><br><br>
 				</section>
 
 				<h2>Questão 1</h2>
 				<h3>Qual o significado de uma linguagem de programação ser de alto nível?</h3>
 				<section class="horizontal">
-					<input type="radio" id="1a" value="a" name="q1">
+					<input type="radio" id="1a" value="a" name="q1" required>
 					<label for="q1">Não permite ao desenvolvedor alterar o tipo da variável após declarada</label><br>
 					<input type="radio" id="1b" value="b" name="q1">
 					<label for="q1">Possui sintaxe simples voltada para o entendimento do usuário</label><br>
@@ -47,7 +47,7 @@
 				<h3>Qual o tipo de dado e resultado mostrado na tela com a concatenação obtida na variável res?</h3>
 				<img src="img/q2.jpg" alt="Questão 2"><br>
 				<section class="horizontal">
-					<input type="radio" id="2a" value="a" name="q2">
+					<input type="radio" id="2a" value="a" name="q2" required>
 					<label for="q1">58, String</label>
 					<input type="radio" id="2b" value="b" name="q2">
 					<label for="q1">58, Int</label>
@@ -63,7 +63,7 @@
 				<h3>Qual o resultado mostrado na tela pela variável res após o cálculo efetuado?</h3>
 				<img src="img/q3.jpg" alt="Questão 3"><br>
 				<section class="horizontal">
-					<input type="radio" id="3a" value="a" name="q3">
+					<input type="radio" id="3a" value="a" name="q3" required>
 					<label for="q1">5</label>
 					<input type="radio" id="3b" value="b" name="q3">
 					<label for="q1">100</label>
@@ -79,7 +79,7 @@
 				<h3>Qual das condições abaixo será mostrada na tela?</h3>
 				<img src="img/q4.jpg" alt="Questão 4"><br>
 				<section class="horizontal">
-					<input type="radio" id="4a" value="a" name="q4">
+					<input type="radio" id="4a" value="a" name="q4" required>
 					<label for="q1">Nenhuma. O código vai ignorar o bloco e continuar a execução.</label><br>
 					<input type="radio" id="4b" value="b" name="q4">
 					<label for="q1">As duas condições são verdadeiras</label><br>
@@ -95,7 +95,7 @@
 				<h3>Qual será a saída do bloco de código abaixo?</h3>
 				<img src="img/q5.jpg" alt="Questão 5"><br>
 				<section class="horizontal">
-					<input type="radio" id="5a" value="a" name="q5">
+					<input type="radio" id="5a" value="a" name="q5" required>
 					<label for="q1">Nenhuma. O código vai ignorar o bloco e continuar a execução.</label><br>
 					<input type="radio" id="5b" value="b" name="q5">
 					<label for="q1">A condição verdadeira não existe</label><br>
@@ -111,7 +111,7 @@
 				<h3>Quais valores serão mostrados na tela após o loop terminar?</h3>
 				<img src="img/q6.jpg" alt="Questão 6"><br>
 				<section class="horizontal">
-					<input type="radio" id="6a" value="a" name="q6">
+					<input type="radio" id="6a" value="a" name="q6" required>
 					<label for="q1">4,5,6,7,8,9,10,11,12,13,14,15,16</label><br>
 					<input type="radio" id="6b" value="b" name="q6">
 					<label for="q1">4,6,8,10,12,14</label><br>
@@ -127,7 +127,7 @@
 				<h3>Quantas iterações serão feitas pelo loop abaixo até sair do bloco e continuar a execução do código?</h3>
 				<img src="img/q7.jpg" alt="Questão 7"><br>
 				<section class="horizontal">
-					<input type="radio" id="7a" value="a" name="q7">
+					<input type="radio" id="7a" value="a" name="q7" required>
 					<label for="q1">Infinitas</label>
 					<input type="radio" id="7b" value="b" name="q7">
 					<label for="q1">6</label>
@@ -143,7 +143,7 @@
 				<h3>Qual resultado será mostrado na tela?</h3>
 				<img src="img/q8.jpg" alt="Questão 8"><br>
 				<section>
-					<input type="radio" id="8a" value="a" name="q8">
+					<input type="radio" id="8a" value="a" name="q8" required>
 					<label for="q1">Eren</label>
 					<input type="radio" id="8b" value="b" name="q8">
 					<label for="q1">Reiner</label>
@@ -159,7 +159,7 @@
 				<h3>Qual o resultado retornado pela função e armazenado na variável res abaixo?</h3>
 				<img src="img/q9.jpg" alt="Questão 9"><br>
 				<section class="horizontal">
-					<input type="radio" id="9a" value="a" name="q9">
+					<input type="radio" id="9a" value="a" name="q9" required>
 					<label for="q1">41</label>
 					<input type="radio" id="9b" value="b" name="q9">
 					<label for="q1">14</label>
@@ -175,7 +175,7 @@
 				<h3>Como ficará o conjunto de atributos do objeto em questão após as operações?</h3>
 				<img src="img/q10.jpg" alt="Questão 10"><br>
 				<section class="horizontal">
-					<input type="radio" id="10a" value="a" name="q10">
+					<input type="radio" id="10a" value="a" name="q10" required>
 					<label for="q1">Sasha, Braus, 15, Soldado, True</label><br>
 					<input type="radio" id="10b" value="b" name="q10">
 					<label for="q1">Sasha, Braus, 19, False</label><br>

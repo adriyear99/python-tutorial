@@ -11,3 +11,7 @@ function start() {
 		},2000);
 	}
 }
+
+function end(){
+	window.location.href = "resultados.html";
+}
