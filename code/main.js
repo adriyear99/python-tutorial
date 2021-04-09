@@ -12,6 +12,6 @@ function start() {
 	}
 }
 
-function end(){
-	window.location.href = "resultados.html";
+function result(){
+	window.location.href = "resultados.php";
 }

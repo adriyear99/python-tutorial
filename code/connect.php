@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Teste Python</title>
+		<title>Final</title>
 		<meta charset="utf-8">
 		<meta name="keywords" content="python,tutorial,html,css,js,ceub,programação">
 		<meta name="author" content="Adriano Tavares">
@@ -16,14 +16,7 @@
 
 	<body>
 
-		<table>
-			<tr>
-				<th>Nome</th>
-				<th>Resultado</th>
-			</tr>
-
-			<?php
-
+		<?php
 				// Conexão com banco de dados
 
 				$host = '127.0.0.1:3306';
@@ -72,25 +65,8 @@
 				echo "Seu cadastro foi realizado com sucesso<br>";
 				echo $query;
 				echo "<br>Pontuação: " . $certas;
+		?>
 
-
-				// Exibição dos dados da tabela na página
-
-				$sql = "SELECT id,nome,certas FROM resultados";
-				$resultado = $conexao -> query($sql);
-
-				if($resultado -> num_rows > 0){
-					while($row = $resultado -> fetch_assoc()){
-						echo "<tr><td>" . $row["id"] . "</td><td>" . $row["nome"] . "</td><td>" . $row["certas"] . "</td></tr>";
-					}
-					echo "</table>";
-				}else{
-					echo "Nenhum resultado";
-				}
-
-				mysqli_close($conexao);
-			?>
-		</table>
-
+		<button type="button" id="botao3" onclick="result()">Ver resultados</button>
 
 	</body>

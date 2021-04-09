@@ -141,12 +141,22 @@ tr:nth-child(even){background-color: white};
 	background:lightgreen;
 }
 
-/*
-#formulario{
-	height:auto;
-	margin:0 auto;
+#botao3{
+	display:block;
+	background:lightblue;
+	color:green;
+	padding:15px;
+	cursor:pointer;
+	text-decoration:none;
+	width:320px;
+	text-align:center;
+	border-radius:5px;
+	font-size:30px;
 }
-*/
+
+#botao3:hover{
+	background:lightgreen;
+}
 
 #fix{
 	width:97%;
