@@ -27,6 +27,8 @@ SELECT * FROM resultados;
 
 DESCRIBE resultados;
 
+SELECT nome,certas FROM resultados WHERE nome != '' ORDER BY certas DESC;
+
 -- INSERT INTO resultados VALUES (DEFAULT,'teste','a','a','a','a','a','a','a','a','a','a',0);
 
 -- DELETE FROM resultados WHERE id > 0;

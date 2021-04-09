@@ -17,7 +17,6 @@
 
 		<table>
 			<tr>
-				<th>ID</th>
 				<th>Nome</th>
 				<th>Resultado</th>
 			</tr>
@@ -27,12 +26,12 @@
 
 				$conexao = new mysqli('127.0.0.1:3306','root','root','teste');
 
-				$sql = "SELECT id,nome,certas FROM resultados";
+				$sql = "SELECT nome,certas FROM resultados WHERE nome != '' ORDER BY certas DESC";
 				$resultado = $conexao -> query($sql);
 
 				if($resultado -> num_rows > 0){
 					while($row = $resultado -> fetch_assoc()){
-						echo "<tr><td>" . $row["id"] . "</td><td>" . $row["nome"] . "</td><td>" . $row["certas"] . "</td></tr>";
+						echo "<tr><td>" . $row["nome"] . "</td><td>" . $row["certas"] . "</td></tr>";
 					}
 					echo "</table>";
 				}else{
