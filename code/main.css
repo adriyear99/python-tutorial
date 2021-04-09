@@ -73,6 +73,22 @@ input[type="radio"]{
 	margin: 0px 5px 0px 20px;
 }
 
+table{
+	border-collapse: collapse;
+	width:100%;
+	color:red;
+	font-family: monospace;
+	font-size: 25px;
+	text-align: left;
+}
+
+th{
+	background-color: blue;
+	color: white;
+}
+
+tr:nth-child(even){background-color: white};
+
 #fundo {
 	background-image: url("img/fundo.jpg");
 	height: 100%;
