@@ -15,7 +15,7 @@
 	</head>
 
 	<body>
-		
+
 		<table>
 			<tr>
 				<th>Nome</th>
@@ -23,6 +23,8 @@
 			</tr>
 
 			<?php
+
+				// Conexão com banco de dados
 
 				$host = '127.0.0.1:3306';
 				$bd = 'teste';
