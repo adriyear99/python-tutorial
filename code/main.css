@@ -75,6 +75,7 @@ input[type="radio"]{
 
 table{
 	border-collapse: collapse;
+	border:3px solid black;
 	width:100%;
 	color:red;
 	font-family: monospace;
@@ -109,6 +110,7 @@ tr:nth-child(even){background-color: white};
 	background:lightblue;
 	color:red;
 	padding:15px;
+	margin:30px;
 	cursor:pointer;
 	text-decoration:none;
 	width:320px;
