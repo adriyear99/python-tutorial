@@ -13,7 +13,8 @@
 		<link href="img/favicon.ico" rel="icon" type="image/x-icon">
 		<script src="main.js"></script>
 	</head>
-	<body>
+
+	<body class="fundo">
 
 		<table>
 			<tr>

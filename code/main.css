@@ -71,7 +71,8 @@ input[type="radio"]{
 table{
 	border-collapse: collapse;
 	border:3px solid black;
-	width:100%;
+	margin:30px auto;
+	width:70%;
 	color:red;
 	font-family: monospace;
 	font-size: 25px;
@@ -85,19 +86,19 @@ th{
 
 tr:nth-child(even){background-color: white};
 
-#fundo {
-	background-image: url("img/fundo.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: repeat-y;
-	background-size: cover;
-}
-
 #intro{
 	font-size:24px;
 	font-family:arial;
 	text-align:center;
 	font-weight:bold;
+}
+
+.fundo {
+	background-image: url("img/fundo.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
 }
 
 #sumario{
