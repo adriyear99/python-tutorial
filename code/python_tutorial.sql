@@ -31,4 +31,6 @@ SELECT nome,certas FROM resultados WHERE nome != '' ORDER BY certas DESC;
 
 -- INSERT INTO resultados VALUES (DEFAULT,'teste','a','a','a','a','a','a','a','a','a','a',0);
 
--- DELETE FROM resultados WHERE id > 0;
+-- DELETE FROM resultados WHERE id > 1 and id < 9;
+
+-- update resultados set nome = 'Matheus Khalil' where id=9;
