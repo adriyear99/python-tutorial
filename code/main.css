@@ -18,16 +18,11 @@ a:hover{
 }
 
 p{
-	font-size:30px;
+	font-size:20px;
 	font-family:arial;
 	text-align:justify;
 }
 
-header{
-	width:95%;
-	position:relative;
-	left:2%;
-}
 
 h1{
 	background-color:yellow;
@@ -99,10 +94,19 @@ tr:nth-child(even){background-color: white};
 }
 
 #intro{
-	font-size:30px;
+	font-size:24px;
 	font-family:arial;
 	text-align:center;
 	font-weight:bold;
+}
+
+#sumario{
+	background-color: lightyellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 5px solid lightgreen;
+	padding: 0px 50px 0px 50px;
 }
 
 #botao{
@@ -174,6 +178,12 @@ tr:nth-child(even){background-color: white};
 	font-weight:bold;
 }
 
+.texto{
+	width:96%;
+	position:relative;
+	left:1%;
+}
+
 .importante{
 	font-weight:bold;
 	text-decoration:underline;
@@ -185,19 +195,10 @@ tr:nth-child(even){background-color: white};
 	justify-content: center;
 }
 
-.mensagem{
-	background-color: lightyellow;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border: 5px solid lightgreen;
-	padding: 0px 50px 0px 50px;
-}
-
 .ref{
 	color:red;
 	font-weight:bold;
-	font-size:30px;
+	font-size:24px;
 }
 
 .input{
