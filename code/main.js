@@ -15,3 +15,7 @@ function start() {
 function result(){
 	window.location.href = "resultados.php";
 }
+
+function answer(){
+	window.location.href = "gabarito.html";
+}

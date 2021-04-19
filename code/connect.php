@@ -76,6 +76,8 @@
 		?>
 
 		<button type="button" id="botao3" onclick="result()">Ver resultados</button>
+		<button type="button" id="botao4" onclick="answer()">Ver gabarito</button>
+
 
 		<br><br>
 
