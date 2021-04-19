@@ -40,6 +40,16 @@ h2{
 	text-decoration:underline;
 }
 
+h4{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+h5{
+	
+}
+
 img{
 	display: block;
 	margin-left: auto;
@@ -161,6 +171,7 @@ tr:nth-child(even){background-color: lightgray};
 	background:lightblue;
 	color:green;
 	padding:15px;
+	margin:15px auto;
 	cursor:pointer;
 	text-decoration:none;
 	width:320px;

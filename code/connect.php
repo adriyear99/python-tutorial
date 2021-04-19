@@ -51,9 +51,9 @@
 			$conexao = new mysqli($host,$userbd,$senhabd,$bd);
 
 			if($conexao -> connect_errno){
-				echo "Erro de conexão: " . $mysqli -> connect_error;
+				echo "<br><h4>Erro de conexão: " . $mysqli -> connect_error . "</h4>";
 			}else{
-				echo "Conexão realizada com sucesso<br>";
+				echo "<br><h4>Conexão realizada com sucesso</h4><br>";
 			}
 
 			$variaveis = '"' .  $nome . '","' . $q1 . '","' . $q2 . '","' . $q3 . '","' . $q4 . '","' . $q5 . '","' . $q6 . '","' . $q7 . '","' . $q8 . '","' . $q9 . '","' . $q10 . '","' . $certas . '"';
@@ -64,18 +64,19 @@
 			$query2 = "SELECT * FROM resultados WHERE nome = '$nome'";
 			$verify = mysqli_query($conexao,$query2);
 
-			if( mysqli_num_rows($verify) > 0 ){
-				echo "Nome de usuário já existe. Os resultados não serão salvos.";
-			}else if( $nome == 'NULL' or empty($nome) ){
-				echo "Nome de usuário vazio. Os resultados não serão salvos.";
+			if(mysqli_num_rows($verify) > 0){
+				echo "<h4>Nome de usuário já existe. Os resultados não serão salvos.</h4><br><br>";
+			}else if(empty($nome)){
+				echo "<h4>Nome de usuário vazio. Os resultados não serão salvos.</h4><br><br>";
 			}else{
 				mysqli_query($conexao,$query);
-				echo "Seu cadastro foi realizado com sucesso<br>";
-				echo $query;
-				echo "<br>Pontuação: " . $certas;
+				echo "<h4>Seu cadastro foi realizado com sucesso</h4><br>";
+				echo "<br><h4>Pontuação: " . $certas . "</h4><br><br>";
 			}
 		?>
 
 		<button type="button" id="botao3" onclick="result()">Ver resultados</button>
+
+		<br><br>
 
 	</body>
