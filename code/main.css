@@ -102,7 +102,7 @@ td{
 	padding:5px 0px;
 }
 
-tr:nth-child(even){background-color: lightgray};
+tr:nth-child(even){background-color: lightgray}
 
 #intro{
 	font-size:24px;

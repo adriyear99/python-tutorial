@@ -47,7 +47,6 @@
 				}
 			}
 
-
 			$conexao = new mysqli($host,$userbd,$senhabd,$bd);
 
 			if($conexao -> connect_errno){
