@@ -19,8 +19,10 @@ a:hover{
 
 p{
 	font-size:20px;
-	font-family:arial,verdana,helvetica;
+	color:#505050;
+	font-family:nunito,verdana,helvetica;
 	text-align:justify;
+	font-weight:bold;
 }
 
 
@@ -30,6 +32,7 @@ h1{
 	text-align:center;
 	font-size:50px;
 	font-family:impact;
+	font-weight:bold;
 	border:3px solid black;
 	padding:50px;
 	margin:20px;
@@ -174,7 +177,7 @@ tr:nth-child(even){background-color: lightgray}
 #botao3{
 	display:block;
 	background:lightblue;
-	color:green;
+	color:red;
 	padding:15px;
 	margin:15px;
 	cursor:pointer;
@@ -192,8 +195,8 @@ tr:nth-child(even){background-color: lightgray}
 
 #botao4{
 	display:block;
-	background:pink;
-	color:lightyellow;
+	background:lightblue;
+	color:red;
 	padding:15px;
 	margin:15px;
 	cursor:pointer;
@@ -206,16 +209,16 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 #botao4:hover{
-	background:orange;
+	background:lightgreen;
 }
 
 .azul{
-	color:blue;
+	color:#6666ff;
 	font-weight:bold;
 }
 
 .verde{
-	color:green;
+	color:#53c653;
 	font-weight:bold;
 }
 
@@ -237,10 +240,10 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 .ref{
-	color:red;
+	color:#ff4d4d;
 	font-weight:bold;
 	font-size:20px;
-	font-family:arial,verdana,helvetica;
+	font-family:nunito,verdana,helvetica;
 }
 
 .input{
