@@ -72,18 +72,19 @@ table{
 	border-collapse: collapse;
 	border:3px solid black;
 	margin:30px auto;
-	width:70%;
+	width:80%;
 	color:red;
 	font-family: monospace;
 	font-size: 25px;
 	text-align: center;
+	table-layout: fixed;
 }
 
 th{
 	background-color: blue;
 	color: white;
 	border:2px solid black;
-	padding:5px 0px;
+	padding:7px 0px;
 }
 
 td{
@@ -91,7 +92,7 @@ td{
 	padding:5px 0px;
 }
 
-tr:nth-child(even){background-color: white};
+tr:nth-child(even){background-color: lightgray};
 
 #intro{
 	font-size:24px;

@@ -8,13 +8,12 @@
 		<meta name="description" content="Tutorial interativo online para aprender os conceitos básicos da linguagem Python em questão de minutos">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-type" content="text/html;charset=iso-8859-1">
-		<!-- <meta http-equiv="Refresh" content="10;index.html"> -->
 		<link rel="stylesheet" href="main.css">
 		<link href="img/favicon.ico" rel="icon" type="image/x-icon">
 		<script src="main.js"></script>
 	</head>
 
-	<body class="fundo">
+	<body>
 
 		<table>
 			<tr>

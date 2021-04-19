@@ -29,8 +29,10 @@ DESCRIBE resultados;
 
 SELECT nome,certas FROM resultados WHERE nome != '' ORDER BY certas DESC;
 
--- INSERT INTO resultados VALUES (DEFAULT,'teste','a','a','a','a','a','a','a','a','a','a',0);
+INSERT INTO resultados VALUES (DEFAULT,'teste','a','a','a','a','a','a','a','a','a','a',2);
+INSERT INTO resultados VALUES (DEFAULT,'Gabriel Ottoni','b','b','b','b','b','b','b','b','b','b',3);
+INSERT INTO resultados VALUES (DEFAULT,'Matheus Khalil','a','a','a','a','a','a','a','a','a','a',2);
+INSERT INTO resultados VALUES (DEFAULT,'Caio Noronha','b','b','b','b','b','b','b','b','b','b',4);
 
--- DELETE FROM resultados WHERE id > 1 and id < 9;
-
--- update resultados set nome = 'Matheus Khalil' where id=9;
+DELETE FROM resultados WHERE id = 2;
+update resultados set nome = 'Matheus Khalil' where id=9;
