@@ -132,6 +132,7 @@ tr:nth-child(even){background-color: lightgray}
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin:80px auto 0;
 	border: 5px solid lightgreen;
 	padding: 0px 50px 0px 50px;
 }
