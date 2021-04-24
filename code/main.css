@@ -25,21 +25,6 @@ p{
 	font-weight:bold;
 }
 
-
-h1{
-	background-color:powderblue;
-	color:yellow;
-	text-align:center;
-	font-size:50px;
-	font-family:impact;
-	font-weight:bold;
-	border:3px solid black;
-	padding:50px;
-	margin:20px;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
-}
-
 h2{
 	font-size:30px;
 	font-family:arial;
@@ -110,6 +95,23 @@ td{
 }
 
 tr:nth-child(even){background-color: lightgray}
+
+#titulo{
+	position:fixed;
+	background-color:powderblue;
+	color:yellow;
+	text-align:center;
+	width:100%;
+	top:0;
+	left:0;
+	font-size:20px;
+	font-family:impact;
+	font-weight:bold;
+	z-index:999;
+	/* overflow: scroll; */
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
 
 #intro{
 	font-size:24px;
