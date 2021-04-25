@@ -236,12 +236,6 @@ tr:nth-child(even){background-color: lightgray}
 	text-decoration:underline;
 }
 
-.centro{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .ref{
 	color:#ff4d4d;
 	font-weight:bold;
@@ -267,7 +261,13 @@ tr:nth-child(even){background-color: lightgray}
 	display:inline;
 }
 
-.modal{
+.centro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.caixa{
 	display:block;
 	background:lightblue;
 	color:red;
@@ -282,6 +282,10 @@ tr:nth-child(even){background-color: lightgray}
 	font-family:helvetica;
 }
 
-.modal:hover{
+.caixa:hover{
 	background:lightgreen;
+}
+
+.hidden{
+	display:none;
 }
