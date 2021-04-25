@@ -119,14 +119,6 @@ tr:nth-child(even){background-color: lightgray}
 	font-weight:bold;
 }
 
-.fundo {
-	background-image: url("img/fundo.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: repeat-y;
-	background-size: cover;
-}
-
 #sumario{
 	background-color: lightyellow;
 	display: flex;
@@ -231,6 +223,14 @@ tr:nth-child(even){background-color: lightgray}
 	left:1%;
 }
 
+.fundo {
+	background-image: url("img/fundo.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+
 .importante{
 	font-weight:bold;
 	text-decoration:underline;
@@ -265,4 +265,23 @@ tr:nth-child(even){background-color: lightgray}
 
 .radio{
 	display:inline;
+}
+
+.modal{
+	display:block;
+	background:lightblue;
+	color:red;
+	padding:15px;
+	margin:15px;
+	cursor:pointer;
+	text-decoration:none;
+	width:320px;
+	text-align:center;
+	border-radius:5px;
+	font-size:30px;
+	font-family:helvetica;
+}
+
+.modal:hover{
+	background:lightgreen;
 }
