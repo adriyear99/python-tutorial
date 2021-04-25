@@ -13,8 +13,7 @@ function start() {
 }
 
 function modal(){
-	document.getElementById("es").style.display="relative";
-	//document.getElementsByClassName('.hidden').style.display = "flex";
+	document.getElementById("es").style.display="block";
 }
 
 
