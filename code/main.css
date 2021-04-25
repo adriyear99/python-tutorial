@@ -261,12 +261,6 @@ tr:nth-child(even){background-color: lightgray}
 	display:inline;
 }
 
-.centro{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .caixa{
 	display:block;
 	background:lightblue;
@@ -284,6 +278,12 @@ tr:nth-child(even){background-color: lightgray}
 
 .caixa:hover{
 	background:lightgreen;
+}
+
+.centro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .hidden{
