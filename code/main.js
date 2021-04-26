@@ -12,6 +12,13 @@ function start() {
 	}
 }
 
+function modal(){
+	document.getElementById("es").style.display="block";
+}
+
+
+
+
 function result(){
 	window.location.href = "resultados.php";
 }
