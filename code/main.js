@@ -12,8 +12,8 @@ function start() {
 	}
 }
 
-function modal(){
-	document.getElementById("es").style.display="block";
+function modal(id){
+	document.getElementById(id).style.display="block";
 }
 
 
