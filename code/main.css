@@ -1,61 +1,9 @@
-/*
-		set 2
-
-	#CAEBF2
-	#525151
-
-	#A9A9A9 - text background
-
-	#FF3B3F - red for buttons
-	#ec898b - button hover
-
-	#EFEFEF - BACKGROUND
-*/
-
 body, html {
-	/*
 	height: 100%;
-	*/
-	padding: 10px;
-	padding-bottom: 70px;
 }
 
-nav{
-	clear: both;
-	color: #525151;
-	background-color: #CAEBF2;
-	height: 70px;
-}
-
-nav ul{
-	margin: 0px;
-	padding: 15px 0px 5px 30px;
-}
-
-nav li{
-	display: inline;
-	margin-right: 50px;
-}
-
-nav li a{
-	color: #525151;
-	font-size: 150%;
-	font-family:arial;
-}
-
-ul{                                                                                                        
+ul{
 	list-style-type:square;
-}
-
-footer{
-	background-color: #CAEBF2;
-	position:absolute;
-	bottom: auto;
-	width:100%;
-	height:150px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 a{
@@ -70,33 +18,17 @@ a:hover{
 }
 
 p{
-	font-size:120%;
-	color:white;
-	font-family:verdana,helvetica;
+	font-size:20px;
+	color:#505050;
+	font-family:nunito,verdana,helvetica;
 	text-align:justify;
 	font-weight:bold;
-	padding: 5%;
-}
-
-
-h1{
-	background-color: #CAEBF2;
-	color:#525151;
-	text-align:center;
-	font-size:50px;
-	font-family:arial;
-	padding:50px;
-	margin:0px;
 }
 
 h2{
-	font-size:200%;
+	font-size:30px;
 	font-family:arial;
-	color: white;
-	text-align: left;
-	margin: 5%;
-
-	
+	text-decoration:underline;
 }
 
 h4{
@@ -164,32 +96,43 @@ td{
 
 tr:nth-child(even){background-color: lightgray}
 
+#titulo{
+	position:fixed;
+	background-color:powderblue;
+	color:yellow;
+	text-align:center;
+	width:100%;
+	top:0;
+	left:0;
+	font-size:20px;
+	font-family:impact;
+	font-weight:bold;
+	z-index:999;
+	/* overflow: scroll; */
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+
 #intro{
-	font-size:200%;
+	font-size:24px;
 	text-align:center;
 	font-weight:bold;
 }
 
-.fundo {
-	background-color: #EFEFEF ;
-	height: 100%;
-	background-position: center;
-	background-repeat: repeat-y;
-	background-size: cover;
-}
-
 #sumario{
-	background-color: #006B73;
+	background-color: lightyellow;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin:85px auto 0;
+	border: 5px solid lightgreen;
 	padding: 0px 50px 0px 50px;
 }
 
 #botao{
 	display:block;
-	background:#FF3B3F;
-	color:black;
+	background:lightblue;
+	color:red;
 	padding:15px;
 	margin:15px;
 	cursor:pointer;
@@ -202,13 +145,13 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 #botao:hover{
-	background:#ec898b;
+	background:lightgreen;
 }
 
 #botao2{
 	display:inline-block;
-	background:#BEFCFF;
-	color:black;
+	background:lightblue;
+	color:red;
 	padding:15px;
 	cursor:pointer;
 	text-decoration:none;
@@ -223,13 +166,13 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 #botao2:hover{
-	background:#ec898b;
+	background:lightgreen;
 }
 
 #botao3{
 	display:block;
-	background:#FF3B3F;
-	color:black;
+	background:lightblue;
+	color:red;
 	padding:15px;
 	margin:15px;
 	cursor:pointer;
@@ -242,13 +185,13 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 #botao3:hover{
-	background:#ec898b;
+	background:lightgreen;
 }
 
 #botao4{
 	display:block;
-	background:#BEFCFF;
-	color:black;
+	background:lightblue;
+	color:red;
 	padding:15px;
 	margin:15px;
 	cursor:pointer;
@@ -261,7 +204,7 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 #botao4:hover{
-	background:#A8EB12;
+	background:lightgreen;
 }
 
 .azul{
@@ -275,21 +218,22 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 .texto{
-	background-color: #575757;
-	width: 100%;
-	position:relative;	
+	width:96%;
+	position:relative;
+	left:1%;
+}
 
+.fundo {
+	background-image: url("img/fundo.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
 }
 
 .importante{
 	font-weight:bold;
 	text-decoration:underline;
-}
-
-.centro{
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .ref{
@@ -315,4 +259,33 @@ tr:nth-child(even){background-color: lightgray}
 
 .radio{
 	display:inline;
+}
+
+.caixa{
+	display:block;
+	background:lightblue;
+	color:red;
+	padding:15px;
+	margin:15px;
+	cursor:pointer;
+	text-decoration:none;
+	width:320px;
+	text-align:center;
+	border-radius:5px;
+	font-size:30px;
+	font-family:helvetica;
+}
+
+.caixa:hover{
+	background:lightgreen;
+}
+
+.centro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hidden{
+	display:none;
 }
