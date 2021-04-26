@@ -331,5 +331,6 @@ tr:nth-child(even){background-color: lightgray}
 	width:50%;
 	align-items:center;
 	justify-content:center;
+	margin:0 auto;
 	overflow:scroll;
 }
