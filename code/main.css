@@ -108,7 +108,6 @@ tr:nth-child(even){background-color: lightgray}
 	font-family:impact;
 	font-weight:bold;
 	z-index:999;
-	/* overflow: scroll; */
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: black;
 }
@@ -323,4 +322,14 @@ tr:nth-child(even){background-color: lightgray}
 
 .hidden{
 	display:none;
+}
+
+.show{
+	background-color:white;
+	border:3px solid black;
+	padding:20px;
+	width:50%;
+	align-items:center;
+	justify-content:center;
+	overflow:scroll;
 }
