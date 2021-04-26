@@ -113,6 +113,28 @@ tr:nth-child(even){background-color: lightgray}
 	-webkit-text-stroke-color: black;
 }
 
+#titulogabarito {
+	position:fixed;
+	background-color:powderblue;
+	color:yellow;
+	text-align:center;
+	width:100%;
+	top:0;
+	left:0;
+	font-size:20px;
+	font-family:impact;
+	font-weight:bold;
+	z-index:999;
+	/* overflow: scroll; */
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+
+#gabaritoquestoes 
+{
+	padding-top: 10%;
+}
+
 #intro{
 	font-size:24px;
 	text-align:center;
@@ -224,6 +246,19 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 .fundo {
+	background-image: url("img/fundo.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+
+.fundogabarito
+{
+	top: 0;
+	margin: 0;
+	padding:0;
+	width: 100%;
 	background-image: url("img/fundo.jpg");
 	height: 100%;
 	background-position: center;
