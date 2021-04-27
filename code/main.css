@@ -154,6 +154,28 @@ tr:nth-child(even){background-color: lightgray}
 	padding: 0px 50px;
 }
 
+.container {
+  width: 80%;
+  height: 75%;
+  background: aqua;
+  margin: auto;
+  padding: 10px;
+}
+
+.one {
+  width: 45%;
+  height: 75%px;
+  border:1px solid green;
+  float: left;
+}
+
+.two {
+  margin-left: 15%;
+  width:500px;
+  height: 500px;
+  background: black;
+}
+
 #primeiro{
 	width:45%;
 	height:75%;
