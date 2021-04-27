@@ -18,7 +18,7 @@ a:hover{
 }
 
 p{
-	font-size:20px;
+	font-size:15px;
 	color:#505050;
 	font-family:nunito,verdana,helvetica;
 	text-align:justify;
@@ -273,7 +273,7 @@ tr:nth-child(even){background-color: lightgray}
 .ref{
 	color:#ff4d4d;
 	font-weight:bold;
-	font-size:20px;
+	font-size:15px;
 	font-family:nunito,verdana,helvetica;
 }
 
@@ -329,7 +329,7 @@ tr:nth-child(even){background-color: lightgray}
 	top:2%;
 	left:50%;
     transform:translate(-50%, 0);
-	width:40%;
+	width:50%;
 	height:88%;
 	align-items: center;
 	justify-content: center;
