@@ -161,10 +161,8 @@ tr:nth-child(even){background-color: lightgray}
 
 #container {
 	display:inline;
-	width: 80%;
-	height: 75%;
-	margin: auto;
-	padding: 10px;
+	width: 100%;
+	
 }
 
 #one {
@@ -173,19 +171,19 @@ tr:nth-child(even){background-color: lightgray}
 	background-color:lightyellow;
 	padding: 10px;
 	border:5px solid green;
-	margin:85px auto 0;
+	margin:85px 0 0 0;
 	float: left;
 	text-align:center;
 	position:relative;
 }
 
 #two {
-	width:400px;
+	width:45%;
 	height:50%;
-	margin:125px auto;
+	margin:85px 0 0 0;
 	text-align:center;
-	height:500px;
-	width:500px;
+	float:right;
+	vertical-align:middle;
 }
 
 #botao{
