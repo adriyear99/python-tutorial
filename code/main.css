@@ -170,6 +170,10 @@ tr:nth-child(even){background-color: lightgray}
 	border:5px solid green;
 	margin:85px auto 0;
 	float: left;
+	text-align:center;
+	/* top:50%; */
+	/* transform:translateY(-50%); */
+	position:relative;
 }
 
 #two {
@@ -180,22 +184,6 @@ tr:nth-child(even){background-color: lightgray}
 	text-align:center;
 	height:500px;
 	width:500px;
-}
-
-#primeiro{
-	width:45%;
-	height:75%;
-	background-color: lightyellow;
-	border: 5px solid lightgreen;
-	width: 15%;
-	height: 200px;
-	float: left;
-}
-
-#segundo{
-	margin-left: 15%;
-	height: 200px;
-	background: black;
 }
 
 #botao{
