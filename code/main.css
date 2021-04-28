@@ -171,15 +171,12 @@ tr:nth-child(even){background-color: lightgray}
 	margin:85px auto 0;
 	float: left;
 	text-align:center;
-	/* top:50%; */
-	/* transform:translateY(-50%); */
 	position:relative;
 }
 
 #two {
 	width:400px;
 	height:300px;
-	/* border:1px solid; */
 	margin:125px auto;
 	text-align:center;
 	height:500px;
