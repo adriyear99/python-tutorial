@@ -103,6 +103,7 @@ tr:nth-child(even){background-color: lightgray}
 
 #titulo{
 	position:fixed;
+	display:inline-block;
 	background-color:powderblue;
 	color:yellow;
 	text-align:center;
@@ -113,8 +114,15 @@ tr:nth-child(even){background-color: lightgray}
 	font-family:impact;
 	font-weight:bold;
 	z-index:999;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
+	/*-webkit-text-stroke-width: 2px;*/
+	/*-webkit-text-stroke-color: black;*/
+}
+
+#imagem{
+	width:100px;
+	height:50px;
+	float:left;
+	padding:5px 0 10px;
 }
 
 #titulogabarito {
@@ -145,26 +153,14 @@ tr:nth-child(even){background-color: lightgray}
 	font-weight:bold;
 }
 
-
-#sumario{
-	width:100%;
-	height:75%;
-	position:relative;
-	width:45%;
-	height:75%;
-	background-color: lightyellow;
-	display:inline-block;
-	margin:85px auto;
-	border: 5px solid lightgreen;
-	padding: 0px 50px;
-}
-
-#container {
+#sumario {
 	display:inline;
 	width: 100%;
+	height:55%;
+	position:relative;
 }
 
-#one {
+#primeiro {
 	width:45%;
 	height:auto;
 	background-color:lightyellow;
@@ -174,12 +170,13 @@ tr:nth-child(even){background-color: lightgray}
 	float: left;
 	text-align:center;
 	position:relative;
+	left:5%;
 }
 
-#two {
+#segundo {
 	width:45%;
 	height:auto;
-	margin-top: 15vh;
+	margin-top:120px;
 	text-align:center;
 	float:right;
 	vertical-align:middle;
@@ -279,12 +276,36 @@ tr:nth-child(even){background-color: lightgray}
 	left:1%;
 }
 
+.topico{
+	display:inline;
+	margin:10px 25px;
+	top:50%;
+	position:relative;
+	top:20px;
+	left:-50px;
+}
+
+.topico:hover{
+	cursor:pointer;
+}
+
 .fundo {
-	background-image: url("img/white.jpg"),url("img/fundo.jpg");
+	background-image: url("img/white.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+}
+
+.fundo2{
+	background-image: url("img/fundo.jpg");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position:relative;
+	top:100%;
 }
 
 .fundogabarito
