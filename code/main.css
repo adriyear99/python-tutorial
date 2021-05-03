@@ -1,10 +1,6 @@
-* {
-	margin: 0;
-	width: 100%;
-}
-
 body, html {
-	height: 100%;
+	height:100%;
+	width:100%;
 }
 
 ul{
@@ -108,11 +104,13 @@ tr:nth-child(even){background-color: lightgray}
 	padding-top:1%;
 }
 
+/* ------------------- Primeira parte do menu ------------------- */
 #sumario{
-	display:inline;
+	display:flex;
 	width: 100%;
 	height:55%;
 	position:relative;
+	background-color:gray;
 }
 
 #primeiro{
@@ -122,10 +120,11 @@ tr:nth-child(even){background-color: lightgray}
 	padding: 10px;
 	border:5px solid green;
 	margin-top: 15vh;
-	float: left;
+	float:left;
 	text-align:center;
 	position:relative;
 	left:5%;
+	overflow:scroll;
 }
 
 #segundo{
@@ -136,6 +135,13 @@ tr:nth-child(even){background-color: lightgray}
 	float:right;
 	vertical-align:middle;
 }
+
+
+/* ------------------------ Segunda parte do menu ------------------------ */
+#botoes{
+
+}
+
 
 .azul{
 	color:#6666ff;
@@ -177,7 +183,6 @@ tr:nth-child(even){background-color: lightgray}
 
 .fundo{
 	background-image: url("img/white.jpg");
-	height:100%;
 	background-position: center;
 	background-repeat: repeat-y;
 	background-size: cover;
