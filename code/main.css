@@ -189,45 +189,6 @@ tr:nth-child(even){background-color: lightgray}
 	vertical-align:middle;
 }
 
-.botao{
-	background:lightblue;
-	color:red;
-	padding:15px;
-	cursor:pointer;
-	text-decoration:none;
-	width:320px;
-	text-align:center;
-	border-radius:5px;
-	font-size:30px;
-	font-family:helvetica;
-}
-
-.botao:hover{
-	background:lightgreen;
-}
-
-.bt1{
-	display:block;
-	margin:15px;
-}
-
-.bt2{
-	display:inline-block;
-	position:relative;
-	justify-content:center;
-	align-items:center;
-}
-
-.bt3{
-	display:block;
-	margin:15px;
-}
-
-.bt4{
-	display:block;
-	margin:15px;
-}
-
 .azul{
 	color:#6666ff;
 	font-weight:bold;
@@ -244,8 +205,8 @@ tr:nth-child(even){background-color: lightgray}
 	left:1%;
 }
 
-/* Logo */
 
+/* ------------------------ Logo ---------------------------- */
 .logo{
 	width:100px;
 	height:50px;
@@ -257,6 +218,43 @@ tr:nth-child(even){background-color: lightgray}
 .logoGabarito{
 	float:center;
 }
+
+
+/* ------------------------ Botão --------------------------- */
+.botao{
+	background:lightblue;
+	color:red;
+	padding:15px;
+	cursor:pointer;
+	text-decoration:none;
+	width:320px;
+	text-align:center;
+	border-radius:5px;
+	font-size:30px;
+	font-family:helvetica;
+}
+.botao:hover{
+	background:lightgreen;
+}
+.bt1{
+	display:block;
+	margin:15px;
+}
+.bt2{
+	display:inline-block;
+	position:relative;
+	justify-content:center;
+	align-items:center;
+}
+.bt3{
+	display:block;
+	margin:15px;
+}
+.bt4{
+	display:block;
+	margin:15px;
+}
+
 
 .topico{
 	display:inline;
