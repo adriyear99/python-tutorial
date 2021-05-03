@@ -284,6 +284,7 @@ tr:nth-child(even){background-color: lightgray}
 
 .topico:hover{
 	cursor:pointer;
+	color:#ffff99;
 }
 
 .fundo{
