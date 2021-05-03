@@ -121,11 +121,21 @@ tr:nth-child(even){background-color: lightgray}
 	/*-webkit-text-stroke-color: black;*/
 }
 
-#imagem{
-	width:100px;
-	height:50px;
-	float:left;
-	padding:5px 0 10px;
+#titulo2{
+	position:relative;
+	display:inline-block;
+	background-color:powderblue;
+	color:yellow;
+	text-align:center;
+	width:100%;
+	top:0;
+	left:0;
+	font-size:20px;
+	font-family:impact;
+	font-weight:bold;
+	z-index:999;
+	/*-webkit-text-stroke-width: 2px;*/
+	/*-webkit-text-stroke-color: black;*/
 }
 
 #titulogabarito {
@@ -271,6 +281,20 @@ tr:nth-child(even){background-color: lightgray}
 	width:96%;
 	position:relative;
 	left:1%;
+}
+
+.logo{
+	width:100px;
+	height:50px;
+	padding:5px 0 10px;
+}
+
+.logoMenu{
+	float:left;
+}
+
+.logoGabarito{
+	float:center;
 }
 
 .topico{
