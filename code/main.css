@@ -189,12 +189,10 @@ tr:nth-child(even){background-color: lightgray}
 	vertical-align:middle;
 }
 
-#botao{
-	display:block;
+.botao{
 	background:lightblue;
 	color:red;
 	padding:15px;
-	margin:15px;
 	cursor:pointer;
 	text-decoration:none;
 	width:320px;
@@ -204,67 +202,30 @@ tr:nth-child(even){background-color: lightgray}
 	font-family:helvetica;
 }
 
-#botao:hover{
+.botao:hover{
 	background:lightgreen;
 }
 
-#botao2{
+.bt1{
+	display:block;
+	margin:15px;
+}
+
+.bt2{
 	display:inline-block;
-	background:lightblue;
-	color:red;
-	padding:15px;
-	cursor:pointer;
-	text-decoration:none;
-	width:320px;
-	text-align:center;
-	border-radius:5px;
-	font-size:30px;
 	position:relative;
 	justify-content:center;
 	align-items:center;
-	font-family:helvetica;
 }
 
-#botao2:hover{
-	background:lightgreen;
-}
-
-#botao3{
+.bt3{
 	display:block;
-	background:lightblue;
-	color:red;
-	padding:15px;
 	margin:15px;
-	cursor:pointer;
-	text-decoration:none;
-	width:320px;
-	text-align:center;
-	border-radius:5px;
-	font-size:30px;
-	font-family:helvetica;
 }
 
-#botao3:hover{
-	background:lightgreen;
-}
-
-#botao4{
+.bt4{
 	display:block;
-	background:lightblue;
-	color:red;
-	padding:15px;
 	margin:15px;
-	cursor:pointer;
-	text-decoration:none;
-	width:320px;
-	text-align:center;
-	border-radius:5px;
-	font-size:30px;
-	font-family:helvetica;
-}
-
-#botao4:hover{
-	background:lightgreen;
 }
 
 .azul{
@@ -283,16 +244,16 @@ tr:nth-child(even){background-color: lightgray}
 	left:1%;
 }
 
+/* Logo */
+
 .logo{
 	width:100px;
 	height:50px;
 	padding:5px 0 10px;
 }
-
 .logoMenu{
 	float:left;
 }
-
 .logoGabarito{
 	float:center;
 }
