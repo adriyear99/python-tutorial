@@ -293,16 +293,17 @@ tr:nth-child(even){background-color: lightgray}
 	font-size:20px;
 	font-family:impact;
 	font-weight:bold;
-	padding-left:10px;
 	z-index:1;
 	/*-webkit-text-stroke-width: 2px;*/
 	/*-webkit-text-stroke-color: black;*/
 }
 .t1{
 	position:fixed;
+	padding-left:10px;
 }
 .t2{
 	position:relative;
+	margin-top:-1px;
 }
 
 
