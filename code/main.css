@@ -56,15 +56,6 @@ img{
 	width: 50%;
 }
 
-form{
-	width:70%;
-	margin:30px auto 0;
-	border:3px solid lightblue;
-	text-align:center;
-	text-decoration:none;
-	background-color:white;
-}
-
 label{
 	margin: -3px 0px 5px 0px;
 }
@@ -103,40 +94,6 @@ td{
 }
 
 tr:nth-child(even){background-color: lightgray}
-
-#titulo{
-	position:fixed;
-	display:inline-block;
-	background-color:powderblue;
-	color:yellow;
-	text-align:center;
-	width:100%;
-	top:0;
-	left:0;
-	font-size:20px;
-	font-family:impact;
-	font-weight:bold;
-	z-index:999;
-	/*-webkit-text-stroke-width: 2px;*/
-	/*-webkit-text-stroke-color: black;*/
-}
-
-#titulo2{
-	position:relative;
-	display:inline-block;
-	background-color:powderblue;
-	color:yellow;
-	text-align:center;
-	width:100%;
-	top:0;
-	left:0;
-	font-size:20px;
-	font-family:impact;
-	font-weight:bold;
-	z-index:999;
-	/*-webkit-text-stroke-width: 2px;*/
-	/*-webkit-text-stroke-color: black;*/
-}
 
 #titulogabarito {
 	position:fixed;
@@ -203,48 +160,6 @@ tr:nth-child(even){background-color: lightgray}
 	width:96%;
 	position:relative;
 	left:1%;
-}
-
-
-/* ------------------------ Logo ---------------------------- */
-.logo{
-	width:100px;
-	height:50px;
-	padding:5px 0 10px;
-}
-.menu{
-	float:left;
-}
-.gabarito{
-	float:center;
-}
-
-
-/* ------------------------ Botão --------------------------- */
-.botao{
-	background:lightblue;
-	color:red;
-	padding:15px;
-	cursor:pointer;
-	text-decoration:none;
-	width:320px;
-	text-align:center;
-	border-radius:5px;
-	font-size:30px;
-	font-family:helvetica;
-}
-.botao:hover{
-	background:lightgreen;
-}
-.tipo1{
-	display:block;
-	margin:15px;
-}
-.tipo2{
-	display:inline-block;
-	position:relative;
-	justify-content:center;
-	align-items:center;
 }
 
 
@@ -354,4 +269,80 @@ tr:nth-child(even){background-color: lightgray}
 	padding:20px;
 	z-index:1000;
 	overflow:scroll;
+}
+
+.agrupar{
+	width:70%;
+	margin:30px auto 0;
+	border:3px solid lightblue;
+	text-align:center;
+	text-decoration:none;
+	background-color:white;
+}
+
+
+/* ----------------------- Título --------------------------- */
+.titulo{
+	display:inline-block;
+	background-color:powderblue;
+	color:yellow;
+	text-align:center;
+	width:100%;
+	top:0;
+	left:0;
+	font-size:20px;
+	font-family:impact;
+	font-weight:bold;
+	padding-left:10px;
+	z-index:1;
+	/*-webkit-text-stroke-width: 2px;*/
+	/*-webkit-text-stroke-color: black;*/
+}
+.t1{
+	position:fixed;
+}
+.t2{
+	position:relative;
+}
+
+
+/* ------------------------ Logo ---------------------------- */
+.logo{
+	width:100px;
+	height:50px;
+	padding:5px 0 10px;
+}
+.menu{
+	float:left;
+}
+.gabarito{
+	float:center;
+}
+
+
+/* ------------------------ Botão --------------------------- */
+.botao{
+	background:lightblue;
+	color:red;
+	padding:15px;
+	cursor:pointer;
+	text-decoration:none;
+	width:320px;
+	text-align:center;
+	border-radius:5px;
+	font-size:30px;
+	font-family:helvetica;
+}
+.botao:hover{
+	background:lightgreen;
+}
+.tipo1{
+	display:block;
+	margin:15px;
+}
+.tipo2{
+	display:inline-block;
+	position:relative;
+	justify-content:center;
+	align-items:center;
 }
