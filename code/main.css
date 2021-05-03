@@ -212,10 +212,10 @@ tr:nth-child(even){background-color: lightgray}
 	height:50px;
 	padding:5px 0 10px;
 }
-.logoMenu{
+.menu{
 	float:left;
 }
-.logoGabarito{
+.gabarito{
 	float:center;
 }
 
