@@ -236,23 +236,15 @@ tr:nth-child(even){background-color: lightgray}
 .botao:hover{
 	background:lightgreen;
 }
-.bt1{
+.tipo1{
 	display:block;
 	margin:15px;
 }
-.bt2{
+.tipo2{
 	display:inline-block;
 	position:relative;
 	justify-content:center;
 	align-items:center;
-}
-.bt3{
-	display:block;
-	margin:15px;
-}
-.bt4{
-	display:block;
-	margin:15px;
 }
 
 
