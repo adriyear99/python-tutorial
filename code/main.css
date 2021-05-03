@@ -304,18 +304,6 @@ tr:nth-child(even){background-color: lightgray}
 	top:100%;
 }
 
-.fundogabarito{
-	top: 0;
-	margin: 0;
-	padding:0;
-	width: 100%;
-	background-image: url("img/fundo.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: repeat-y;
-	background-size: cover;
-}
-
 .importante{
 	font-weight:bold;
 	text-decoration:underline;
