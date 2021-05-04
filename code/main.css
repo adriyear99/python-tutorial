@@ -83,26 +83,6 @@ td{
 
 tr:nth-child(even){background-color: lightgray}
 
-#titulogabarito {
-	position:fixed;
-	background-color:powderblue;
-	color:yellow;
-	text-align:center;
-	width:100%;
-	top:0;
-	left:0;
-	font-size:20px;
-	font-family:impact;
-	font-weight:bold;
-	z-index:999;
-	/* overflow: scroll; */
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: black;
-}
-
-#respostas{
-	padding-top:1%;
-}
 
 /* ------------------- Primeira parte do menu ------------------- */
 #sumario{
