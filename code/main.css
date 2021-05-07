@@ -86,10 +86,10 @@ tr:nth-child(even){background-color: lightgray}
 
 /* ------------------- Primeira parte do menu ------------------- */
 #sumario{
-	display:flex;
-	width: 100%;
+	width:100%;
 	height:80%;
 	padding-bottom:100px;
+	margin-bottom:30px;
 	position:relative;
 	background-image:url("img/menu.jpg");;
 }
@@ -140,8 +140,13 @@ tr:nth-child(even){background-color: lightgray}
 
 
 /* ------------------------ Segunda parte do menu ------------------------ */
-#botoes{
+.botoes{
+	display:flex;
+	margin-bottom:10px;
+}
 
+.separar{
+	margin:0 5px;
 }
 
 
@@ -237,7 +242,7 @@ tr:nth-child(even){background-color: lightgray}
 	margin:15px;
 	cursor:pointer;
 	text-decoration:none;
-	width:320px;
+	width:300px;
 	text-align:center;
 	margin:20px auto 0;
 	border-radius:5px;
