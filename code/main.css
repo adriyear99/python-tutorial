@@ -91,27 +91,10 @@ tr:nth-child(even){background-color: lightgray}
 	height:80%;
 	padding-bottom:100px;
 	position:relative;
-	background-color:gray;
+	background-image:url("img/menu.jpg");;
 }
 
-#primeiro{
-	width:40%;
-	height:300px;
-	background-color:lightyellow;
-	padding: 0px 20px;
-	border:5px solid green;
-	margin-top:100px;
-	float:left;
-	text-align:center;
-	position:relative;
-	left:5%;
-	font-size:15px;
-	color:#505050;
-	font-family:nunito,verdana,helvetica;
-	font-weight:bold;
-}
-
-#primeiro p{
+.align{
 	margin:0;
 	padding:0;
 	top:50%;
@@ -120,16 +103,39 @@ tr:nth-child(even){background-color: lightgray}
 	position:relative;
 }
 
-#segundo{
+#primeiro{
 	width:40%;
-	height:auto;
+	height:70%;
+	background-color:lightblue;
+	padding: 0px 20px;
+	border:5px solid #8080ff;
 	margin-top:100px;
-	margin-left:100px;
+	float:left;
+	text-align:center;
+	position:relative;
+	left:2%;
+	font-size:15px;
+	color:#505050;
+	font-family:nunito,verdana,helvetica;
+	font-weight:bold;
+}
+
+#segundo{
+	width:45%;
+	height:80%;
+	top:5%;
+	margin-top:100px;
+	margin-left:50px;
 	text-align:center;
 	float:right;
-	vertical-align:middle;
 	position:relative;
-	border:2px solid black;
+	display:inline-block;
+}
+
+#imagem{
+	margin:0 auto;
+	height:500px;
+	width:600px;
 }
 
 
