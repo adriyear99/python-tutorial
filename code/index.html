@@ -15,6 +15,7 @@
 
 	<body class="fundo">
 
+		<!-- Barra superior -->
 		<div class="titulo t1">
 			<img src="img/logo.png" class="logo menu">
 			<p class="paragrafo topico" onclick="modal('es')">Entrada e Saída</p>
@@ -28,7 +29,8 @@
 
 		<br>
 
-		<section id="sumario" class="centro">
+		<!-- Menu principal -->
+		<summary id="sumario">
 			<div id="primeiro">
 				<p class="align">Python é uma linguagem de alto nível e código aberto com a sintaxe simples e mais próxima da linguagem humana, o que a torna extremamente recomendável para programadores iniciantes. Atualmente, Python chega a ser uma das linguagens mais promissoras e com maior crescimento no mercado. Esse tutorial tem o objetivo de apresentar os conceitos básicos da linguagem de forma rápida e testar o conhecimento adquirido no final por meio de um teste, gerando a pontuação do aluno no banco de dados para comparação com outros usuários. A linguagem pode ser instalada junto de seu ambiente de desenvolvimento integrado (IDE) no <a href="https://www.python.org/downloads/" target=”_blank”>link</a>.</p>
 			</div>
@@ -36,41 +38,44 @@
 			<div id="segundo">
 				<img src="img/logo.png" alt="Logo" id="imagem" class="align">
 			</div>
-		</section>
+		</summary>
 
-		<section class="botoes centro">
-			<div id="caixa1" class="separar">
-				<button class="caixa" onclick="modal('es')">Entrada e Saída</button>
-			</div>
+		<!-- Conjunto de botões -->
+		<header class="main">
+			<section class="botoes centro">
+				<div id="caixa1" class="separar">
+					<button class="caixa" onclick="modal('es')">Entrada e Saída</button>
+				</div>
 
-			<div id="caixa2" class="separar">
-				<button class="caixa" onclick="modal('var')">Variáveis</button>
-			</div>
+				<div id="caixa2" class="separar">
+					<button class="caixa" onclick="modal('var')">Variáveis</button>
+				</div>
 
-			<div id="caixa3" class="separar">
-				<button class="caixa" onclick="modal('cond')">Condições</button>
-			</div>
+				<div id="caixa3" class="separar">
+					<button class="caixa" onclick="modal('cond')">Condições</button>
+				</div>
 
-			<div id="caixa4" class="separar">
-				<button class="caixa" onclick="modal('loop')">Loops</button>
-			</div>
-		</section>
+				<div id="caixa4" class="separar">
+					<button class="caixa" onclick="modal('loop')">Loops</button>
+				</div>
+			</section>
 
-		<section class="botoes centro">
-			<div id="caixa5" class="separar">
-				<button class="caixa" onclick="modal('list')">Listas e Dicionários</button>
-			</div>
+			<section class="botoes centro">
+				<div id="caixa5" class="separar">
+					<button class="caixa" onclick="modal('list')">Listas e Dicionários</button>
+				</div>
 
-			<div id="caixa6" class="separar">
-				<button class="caixa" onclick="modal('func')">Funções</button>
-			</div>
+				<div id="caixa6" class="separar">
+					<button class="caixa" onclick="modal('func')">Funções</button>
+				</div>
 
-			<div id="caixa7" class="separar">
-				<button class="caixa" onclick="modal('class')">Classes</button>
-			</div>
-		</section>
+				<div id="caixa7" class="separar">
+					<button class="caixa" onclick="modal('class')">Classes</button>
+				</div>
+			</section>
+		</header>
 
-
+		<!-- Telas escondidas -->
 		<section id="modal">
 			<div id="es" class="hidden show">
 				<h2>Entrada e Saída</h2>
@@ -85,8 +90,6 @@
 				<img src="img/var.jpg" alt="Variáveis">
 				<button class="caixa" onclick="modal('var')">Fechar</button>
 			</div>
-
-
 
 			<div id="cond" class="hidden show">
 				<h2>Condições (IF/ELSE)</h2>
@@ -124,7 +127,7 @@
 			</div>
 		</section>
 
-		<br><br><br>
+		<br>
 
 		<div id="fim" class="texto">
 			<p class="paragrafo">Clique <a href="python/resumo.py" class="ref" download>aqui</a> para baixar o material usado no tutorial.</p>
