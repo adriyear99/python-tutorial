@@ -41,7 +41,7 @@
 		</summary>
 
 		<!-- Conjunto de botões -->
-		<header class="main">
+		<header id="main">
 			<section class="botoes centro">
 				<div id="caixa1" class="separar">
 					<button class="caixa" onclick="modal('es')">Entrada e Saída</button>
@@ -129,13 +129,14 @@
 
 		<br>
 
-		<div id="fim" class="texto">
+		<!-- Instruções finais -->
+		<div id="fim" class="ajustar">
 			<p class="paragrafo">Clique <a href="python/resumo.py" class="ref" download>aqui</a> para baixar o material usado no tutorial.</p>
-			<p id="demo" class="paragrafo">Utilize o conhecimento adquirido no tutorial para responder as perguntas a seguir:</p>
+			<p class="paragrafo">Utilize o conhecimento adquirido no tutorial para responder as perguntas a seguir:</p>
 		</div>
 
-
-		<nav class="centro">
+		<!-- Botões de mudança de página -->
+		<nav id="continuar" class="ajustar centro">
 			<button type="button" id="botao" class="botao tipo1" onclick="start()">Começar Teste</button>
 			<button type="button" id="botao3" class="botao tipo3" onclick="result()">Ver Resultados</button>
 		</nav>
