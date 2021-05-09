@@ -189,6 +189,7 @@ tr:nth-child(even){background-color: lightgray}
 
 #main{
 	background-image:url("img/botoes.jpg");
+	background-size:cover;
 	height:40%;
 	left:0;
 	top:90%;
@@ -261,7 +262,7 @@ tr:nth-child(even){background-color: lightgray}
 }
 
 .fundo{
-	background-image: url("img/white.jpg");
+	background-image: url("img/menu.jpg");
 	background-position: center;
 	background-repeat: repeat-y;
 	background-size: cover;
@@ -336,7 +337,7 @@ tr:nth-child(even){background-color: lightgray}
 	top:2%;
 	left:50%;
     transform:translate(-50%, 0);
-	width:50%;
+	width:70%;
 	height:88%;
 	text-align:center;
 	align-items: center;
@@ -348,6 +349,11 @@ tr:nth-child(even){background-color: lightgray}
 	overflow:scroll;
 }
 
+.img{
+	height:400px;
+	width:95%;
+}
+
 .agrupar{
 	width:70%;
 	margin:30px auto 0;
@@ -356,8 +362,6 @@ tr:nth-child(even){background-color: lightgray}
 	text-decoration:none;
 	background-color:white;
 }
-
-
 
 
 /* ------------------------ Botão --------------------------- */
