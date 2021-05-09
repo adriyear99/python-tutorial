@@ -41,7 +41,6 @@ h5{
 img{
 	display: block;
 	margin:0 auto;
-	width: 50%;
 }
 
 label{
@@ -117,6 +116,8 @@ tr:nth-child(even){background-color: lightgray}
 	height:50px;
 	padding:5px 0 10px;
 	float:left;
+	position:relative;
+	right:5%;
 }
 
 .topico{
@@ -124,7 +125,6 @@ tr:nth-child(even){background-color: lightgray}
 	margin:0 25px;
 	top:50%;
 	position:relative;
-	/* top:20px; */
 	right:50px;
 }
 
@@ -148,15 +148,6 @@ tr:nth-child(even){background-color: lightgray}
 	top:10%;
 	background-image:url("img/menu.jpg");
 	display:flex;
-}
-
-.align{
-	margin:0;
-	padding:0;
-	top:50%;
-	transform: translateY(-50%);
-	text-align:center;
-	position:relative;
 }
 
 #primeiro{
@@ -221,6 +212,21 @@ tr:nth-child(even){background-color: lightgray}
 .ajustar{
 	position:absolute;
 	width:100%;
+}
+
+.centro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.align{
+	margin:0;
+	padding:0;
+	top:50%;
+	transform: translateY(-50%);
+	text-align:center;
+	position:relative;
 }
 
 #fim{
@@ -322,12 +328,6 @@ tr:nth-child(even){background-color: lightgray}
 
 .caixa:hover{
 	background:lightgreen;
-}
-
-.centro{
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .hidden{
