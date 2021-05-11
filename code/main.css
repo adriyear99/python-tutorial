@@ -1,6 +1,7 @@
 body, html {
 	height:100%;
 	width:100%;
+	left:0;
 }
 
 ul{
@@ -167,7 +168,7 @@ tr:nth-child(n){
 	width:45%;
 	height:80%;
 	top:5%;
-	left:5%;
+	
 	margin-top:30px;
 	margin-left:50px;
 	text-align:center;
@@ -179,7 +180,8 @@ tr:nth-child(n){
 #imagem{
 	margin:0 auto;
 	height:400px;
-	width:500px;
+	width:600px;
+	
 }
 
 
@@ -226,10 +228,14 @@ tr:nth-child(n){
 #fim{
 	top:140%;
 	height:20%;
+	width:100%;
+	left:0;
 }
 
 #continuar{
 	top:160%;
+	width:100%;
+	left:0;
 }
 
 
