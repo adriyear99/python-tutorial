@@ -13,7 +13,7 @@
 		<script src="main.js"></script>
 	</head>
 
-	<body>
+	<body class="fundo">
 
 		<table>
 			<tr>

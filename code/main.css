@@ -76,7 +76,9 @@ td{
 	padding:5px 0px;
 }
 
-tr:nth-child(even){background-color: lightgray}
+tr:nth-child(n){
+	background-color: lightgray
+}
 
 
 /* ------------------- Barra Superior ----------------------- */
