@@ -2,7 +2,6 @@ body, html {
 	height:100%;
 	width:100%;
 	left:0;
-	overflow-x:hidden;
 }
 
 ul{
@@ -110,13 +109,13 @@ tr:nth-child(n){
 	height:50px;
 	padding:5px 0 10px;
 	position:relative;
-	top:50%;
-	transform:translateY(-45%);
 }
 
 .menu{
 	float:left;
 	right:5%;
+	top:50%;
+	transform:translateY(-45%);
 }
 
 .gabarito{
@@ -209,6 +208,10 @@ tr:nth-child(n){
 .ajustar{
 	position:absolute;
 	width:100%;
+}
+
+.removeScroll{
+	overflow-x:hidden;
 }
 
 .centro{
