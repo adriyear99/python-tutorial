@@ -165,12 +165,12 @@ tr:nth-child(n){
 }
 
 #segundo{
-	width:45%;
+	width:50%;
 	height:80%;
 	top:5%;
-	
+	left:5%;
 	margin-top:30px;
-	margin-left:50px;
+	padding:0;
 	text-align:center;
 	float:right;
 	position:relative;
@@ -220,26 +220,33 @@ tr:nth-child(n){
 	justify-content: center;
 }
 
-.align{
+.alinhar{
 	margin:0;
-	padding:0;
 	top:50%;
 	transform: translateY(-50%);
 	text-align:center;
 	position:relative;
 }
 
+.vertical{
+	margin:0;
+	top:50%;
+	transform:translateY(-50%);
+}
+
 #fim{
-	top:140%;
+	top:130%;
 	height:20%;
 	width:100%;
 	left:0;
 }
 
 #continuar{
-	top:160%;
+	top:150%;
 	width:100%;
 	left:0;
+	padding:20px 0;
+	background-color:powderblue;
 }
 
 
