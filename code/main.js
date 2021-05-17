@@ -22,7 +22,9 @@ function modal(id){
 }
 
 function gif(){
-
+	setTimeout(function change(){
+		document.getElementById("conteudo").innerHTML = "none";
+	},5000);
 }
 
 function result(){

@@ -137,11 +137,6 @@ tr:nth-child(n){
 
 
 /* ------------------- Primeira parte do menu ------------------- */
-#gif{
-	position:absolute;
-	z-index:1000;
-}
-
 #sumario{
 	height:80%;
 	padding-bottom:100px;
@@ -362,15 +357,22 @@ tr:nth-child(n){
 	left:50%;
     transform:translate(-50%, 0);
 	width:70%;
-	height:88%;
 	text-align:center;
 	align-items: center;
 	justify-content: center;
-	background-color:white;
 	border:3px solid black;
-	padding:20px;
 	z-index:1000;
 	overflow-x:hidden;
+}
+
+.modal{
+	background-color:white;
+	padding:20px;
+	height:88%;
+}
+
+.gif{
+	height:95%;
 }
 
 .img{
