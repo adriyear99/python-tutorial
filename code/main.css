@@ -138,7 +138,7 @@ tr:nth-child(n){
 
 /* ------------------- Primeira parte do menu ------------------- */
 #sumario{
-	height:80%;
+	height:85%;
 	padding-bottom:100px;
 	left:0;
 	top:10%;
@@ -188,15 +188,16 @@ tr:nth-child(n){
 /* ------------------------ Segunda parte do menu ------------------------ */
 .botoes{
 	display:flex;
-	margin-bottom:25px;
+	margin-top:2%;
+	margin-bottom:2%;
 }
 
 #main{
 	background-image:url("img/botoes.jpg");
 	background-size:cover;
-	height:40%;
+	height:50%;
 	left:0;
-	top:90%;
+	top:95%;
 }
 
 .separar{
@@ -245,14 +246,14 @@ tr:nth-child(n){
 }
 
 #fim{
-	top:130%;
+	top:145%;
 	height:20%;
 	width:100%;
 	left:0;
 }
 
 #continuar{
-	top:150%;
+	top:165%;
 	width:100%;
 	left:0;
 	padding:20px 0;
