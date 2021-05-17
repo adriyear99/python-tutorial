@@ -24,7 +24,7 @@ function modal(id){
 function gif(){
 	setTimeout(function change(){
 		document.getElementById("animation").style.display = "none";
-		document.getElementById("vazio").id = "conteudo";
+		document.getElementById("preencher").style.display = "none";
 	},3000);
 }
 
