@@ -21,8 +21,9 @@ function modal(id){
 	}
 }
 
+function gif(){
 
-
+}
 
 function result(){
 	window.location.href = "resultados.php";
