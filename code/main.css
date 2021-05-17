@@ -381,9 +381,10 @@ tr:nth-child(n){
 	overflow-x:hidden;
 }
 
-.gif{
-	height:90%;
-	width:70%;
+.gif {
+    height:70%;
+    width:50%;
+    margin-top:5%;
 }
 
 .img{
