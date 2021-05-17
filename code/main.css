@@ -234,6 +234,12 @@ tr:nth-child(n){
 	transform:translateY(-50%);
 }
 
+#vazio{
+	display:none;
+	background-color:yellow;
+	z-index:1001;
+}
+
 #fim{
 	top:130%;
 	height:20%;

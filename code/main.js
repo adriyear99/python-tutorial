@@ -23,8 +23,9 @@ function modal(id){
 
 function gif(){
 	setTimeout(function change(){
-		document.getElementById("conteudo").innerHTML = "none";
-	},5000);
+		document.getElementById("animation").style.display = "none";
+		document.getElementById("vazio").id = "conteudo";
+	},3000);
 }
 
 function result(){
