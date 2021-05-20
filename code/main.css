@@ -142,7 +142,8 @@ tr:nth-child(n){
 	padding-bottom:100px;
 	left:0;
 	top:10%;
-	background-image:url("img/menu.jpg");
+	background:url("img/menu.jpg") center no-repeat;
+	background-size:cover;
 	display:flex;
 }
 
@@ -193,7 +194,7 @@ tr:nth-child(n){
 }
 
 #main{
-	background-image:url("img/botoes.jpg");
+	background:url("img/botoes.jpg") center no-repeat;
 	background-size:cover;
 	height:50%;
 	left:0;
@@ -298,16 +299,6 @@ tr:nth-child(n){
 	background-size: cover;
 }
 
-.fundo2{
-	background-image: url("img/fundo.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position:relative;
-	top:100%;
-}
-
 .importante{
 	font-weight:bold;
 	text-decoration:underline;
@@ -390,7 +381,8 @@ tr:nth-child(n){
 
 .img{
 	height:400px;
-	width:95%;
+	width:90%;
+	object-fit:contain;
 }
 
 .agrupar{
