@@ -75,8 +75,8 @@
 		?>
 
 		<nav class="centro">
-			<button type="button" id="botao3" class="botao tipo1" onclick="result()">Ver resultados</button>
-			<button type="button" id="botao4" class="botao tipo1" onclick="answer()">Ver gabarito</button>
+			<button type="button" id="botao3" class="botao tipo1 borda" onclick="result()">Ver resultados</button>
+			<button type="button" id="botao4" class="botao tipo1 borda" onclick="answer()">Ver gabarito</button>
 		</nav>
 
 		<br><br>
