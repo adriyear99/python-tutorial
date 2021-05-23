@@ -46,7 +46,15 @@ label{
 
 input[type="text"]{
 	width:30%;
-	margin:5px;
+	margin-top:10px;
+	padding:8px;
+	box-sizing:border-box;
+	transition:0.3s;
+}
+
+input[type="text"]:focus{
+	border-color:dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
 }
 
 input[type="radio"]{
