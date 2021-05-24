@@ -40,8 +40,11 @@ img{
 	margin:0 auto;
 }
 
+/* ---------------------- Formulário --------------------- */
 label{
 	margin: -3px 0px 5px 0px;
+	font-family:"times new roman";
+	font-size:16px;
 }
 
 input[type="text"]{
@@ -53,14 +56,16 @@ input[type="text"]{
 }
 
 input[type="text"]:focus{
-	border-color:dodgerBlue;
-	box-shadow: 0 0 8px 0 dodgerBlue;
+	border-color:powderblue;
+	box-shadow: 0 0 8px 0 powderblue;
 }
 
 input[type="radio"]{
 	margin: 0px 5px 0px 20px;
 }
 
+
+/* ---------------------- Tabela ----------------------- */
 table{
 	border-collapse: collapse;
 	border:3px solid black;

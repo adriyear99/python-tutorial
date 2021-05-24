@@ -5,7 +5,9 @@ function start() {
 		document.getElementById("demo").innerHTML = "O teste será iniciado...";
 		document.getElementById("demo").style.color = "red";
 		document.getElementById("botao").innerHTML = "Carregando...";
-		document.getElementById("botao").style.color = "red";
+		document.getElementById("botao").style.color = "white";
+		document.getElementById("botao").style.background = "lightgreen";
+		document.getElementById("botao").style.border = "2px solid green";
 		setTimeout(function change(){
 			window.location.href = "teste.html";
 		},2000);
